@@ -2,352 +2,339 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Mahi Uddin Ahmed builds Shopify, WordPress and custom Next.js websites and online stores for startups, clinics and small businesses in Bangladesh, the UK and the US.">
-<title>Mahi Uddin Ahmed</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
-<style>
-/* Layout: a single dark "storefront at night" column — hero, live work, services+prices, process, contact. Brand matches the LinkedIn banner. */
-:root{
-  color-scheme: dark;
-  --bg:#0b1220; --bg-2:#111a2e; --line:rgba(226,232,240,.12); --line-2:rgba(226,232,240,.2);
-  --fg:#e8edf6; --muted:#9aa6bd; --dim:#6b7892;
-  --blue:#4f8cf7; --green:#2fd29a; --amber:#f5b94a;
-  --grad:linear-gradient(90deg,#5b9cff,#34d6a0);
-  --display:"Sora",ui-sans-serif,system-ui,sans-serif;
-  --body:"Manrope",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
-  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
-  --r:14px; --maxw:1120px;
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Mahi Uddin Ahmed — Digital Builder, E-commerce &amp; Growth</title>
+<meta name="description" content="Mahi Uddin Ahmed builds digital businesses, e-commerce experiences, websites and growth systems.">
+<link rel="canonical" href="https://mahiuddinahmed.com/">
+<meta name="theme-color" content="#0B0B0C">
+<meta name="color-scheme" content="dark">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mahi Uddin Ahmed">
+<meta property="og:title" content="Mahi Uddin Ahmed — Digital Builder, E-commerce &amp; Growth">
+<meta property="og:description" content="Mahi Uddin Ahmed builds digital businesses, e-commerce experiences, websites and growth systems.">
+<meta property="og:url" content="https://mahiuddinahmed.com/">
+<meta property="og:image" content="https://mahiuddinahmed.com/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="I build digital worlds — Mahi Uddin Ahmed">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@mahiuddin46">
+<meta name="twitter:creator" content="@mahiuddin46">
+<meta name="twitter:title" content="Mahi Uddin Ahmed — Digital Builder, E-commerce &amp; Growth">
+<meta name="twitter:description" content="Mahi Uddin Ahmed builds digital businesses, e-commerce experiences, websites and growth systems.">
+<meta name="twitter:image" content="https://mahiuddinahmed.com/assets/img/og.png">
+
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+
+<link rel="preload" href="/assets/fonts/space-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/avif" fetchpriority="high"
+      href="/assets/img/mahi-portrait-760.avif"
+      imagesrcset="/assets/img/mahi-portrait-760.avif 760w, /assets/img/mahi-portrait-1140.avif 1140w"
+      imagesizes="(max-width:768px) 78vw, 42vw">
+<link rel="stylesheet" href="/assets/css/site.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mahi Uddin Ahmed",
+  "url": "https://mahiuddinahmed.com/",
+  "email": "mailto:amahi2148@gmail.com",
+  "jobTitle": "Digital Builder",
+  "description": "Builds digital businesses, e-commerce experiences, websites and growth systems.",
+  "sameAs": [
+    "https://www.linkedin.com/in/mahiuddinahmed",
+    "https://x.com/mahiuddin46",
+    "https://github.com/mahiuddin46"
+  ]
 }
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
-body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16.5px;line-height:1.6;-webkit-font-smoothing:antialiased;
-  background-image:linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.028) 1px,transparent 1px);
-  background-size:44px 44px}
-a{color:inherit}
-:focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:6px}
-.wrap{max-width:var(--maxw);margin:0 auto;padding-inline:clamp(16px,4vw,32px)}
-h1,h2,h3{font-family:var(--display);line-height:1.12;margin:0;text-wrap:balance;letter-spacing:-.02em}
-p{margin:0}
-.eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--green)}
-.grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
-
-/* nav */
-header.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(11,18,32,.82);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
-.brand{font-family:var(--display);font-weight:700;font-size:17px;text-decoration:none;display:flex;align-items:center;gap:10px}
-.brand i{width:28px;height:28px;border-radius:8px;background:var(--grad);display:grid;place-items:center;font-style:normal;color:#0b1220;font-size:13px;font-weight:700}
-.nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;font-size:14.5px;color:var(--muted)}
-.nav ul a{text-decoration:none}.nav ul a:hover{color:var(--fg)}
-.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;text-decoration:none;padding:12px 20px;border-radius:999px;border:1px solid transparent;cursor:pointer;transition:transform .15s ease,background .15s ease}
-.btn:hover{transform:translateY(-1px)}
-.btn-primary{background:var(--green);color:#06231a}
-.btn-ghost{border-color:var(--line-2);color:var(--fg);background:rgba(255,255,255,.03)}
-.nav .btn{padding:9px 16px;font-size:14px}
-@media (max-width:760px){.nav ul{display:none}}
-
-/* hero */
-.hero{padding-block:clamp(56px,9vw,104px) clamp(40px,6vw,72px);display:grid;grid-template-columns:1.25fr .9fr;gap:48px;align-items:center}
-.hero h1{font-size:clamp(38px,5.6vw,64px);font-weight:700;margin-top:14px}
-.hero .lede{margin-top:20px;font-size:clamp(17px,1.6vw,19px);color:var(--muted);max-width:56ch}
-.hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
-.stack{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
-.chip{font-size:13.5px;font-weight:600;padding:6px 13px;border-radius:999px;border:1px solid var(--line-2);color:#d6deea;background:rgba(255,255,255,.04)}
-.hero-card{border:1px solid var(--line-2);border-radius:18px;background:rgba(255,255,255,.04);padding:22px;min-width:0}
-.hero-card .row{display:flex;justify-content:space-between;gap:12px;padding-block:12px;border-bottom:1px solid var(--line);font-size:15px}
-.hero-card .row:last-child{border-bottom:0}
-.hero-card .k{color:var(--muted)}
-.hero-card .v{font-weight:700;text-align:right}
-.status{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12.5px;color:var(--green);margin-bottom:6px}
-.status b{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(47,210,154,.18)}
-@media (max-width:900px){.hero{grid-template-columns:1fr}}
-
-section{padding-block:clamp(56px,8vw,96px);border-top:1px solid var(--line)}
-.sec-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px;margin-bottom:36px}
-.sec-head h2{font-size:clamp(28px,3.6vw,40px);margin-top:10px}
-.sec-head p{color:var(--muted);max-width:52ch}
-
-/* work */
-.work{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
-.case{border:1px solid var(--line-2);border-radius:var(--r);background:var(--bg-2);overflow:hidden;display:flex;flex-direction:column;text-decoration:none;transition:border-color .2s ease,transform .2s ease}
-.case:hover{border-color:rgba(47,210,154,.5);transform:translateY(-2px)}
-.shot{aspect-ratio:16/8;max-width:100%;padding:16px;display:flex;flex-direction:column;gap:10px;position:relative}
-.shot .bar{display:flex;gap:6px;align-items:center}
-.shot .bar i{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.35)}
-.shot .bar span{margin-left:10px;font-family:var(--mono);font-size:12px;opacity:.85;background:rgba(0,0,0,.25);padding:3px 10px;border-radius:6px}
-.shot .mark{margin:auto 0;font-family:var(--display);font-weight:700;font-size:clamp(24px,3vw,34px);letter-spacing:.06em}
-.shot .tiles{display:flex;gap:8px}.shot .tiles b{flex:1;height:30px;border-radius:6px;background:rgba(255,255,255,.14)}
-.s-mynah{background:linear-gradient(135deg,#0f3d2b,#14532d 60%,#1d6b3e);color:#f2d38a}
-.s-ruuk{background:linear-gradient(135deg,#3b2414,#6b3d1e);color:#ffe7c2}
-.s-ruus{background:linear-gradient(135deg,#13254a,#24407a);color:#dbe7ff}
-.s-mmt{background:linear-gradient(135deg,#2a2a33,#43435a);color:#e9e9f5}
-.case .body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
-.case h3{font-size:20px}
-.case .meta{font-family:var(--mono);font-size:12.5px;color:var(--dim)}
-.case p{color:var(--muted);font-size:15.5px}
-.case .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px}
-.case .tags span{font-size:12.5px;padding:3px 10px;border-radius:999px;background:rgba(79,140,247,.14);color:#b9d0ff}
-@media (max-width:760px){.work{grid-template-columns:1fr}}
-
-/* why */
-.why{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:start}
-.why blockquote{margin:0;font-family:var(--display);font-size:clamp(24px,2.8vw,32px);line-height:1.25;font-weight:600}
-.checks{display:grid;gap:14px;list-style:none;margin:0;padding:0}
-.checks li{display:grid;grid-template-columns:28px 1fr;gap:12px;align-items:start;color:var(--muted)}
-.checks li strong{color:var(--fg);display:block}
-.checks svg{margin-top:3px}
-@media (max-width:900px){.why{grid-template-columns:1fr}}
-
-/* services */
-.toggle{display:inline-flex;border:1px solid var(--line-2);border-radius:999px;padding:4px;background:rgba(255,255,255,.03)}
-.toggle button{font:600 14px var(--body);color:var(--muted);background:transparent;border:0;padding:8px 16px;border-radius:999px;cursor:pointer}
-.toggle button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
-.svc{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.svc article{border:1px solid var(--line-2);border-radius:var(--r);padding:24px;background:rgba(255,255,255,.025);display:flex;flex-direction:column;gap:12px;min-width:0}
-.svc article.feat{border-color:rgba(47,210,154,.55);background:linear-gradient(180deg,rgba(47,210,154,.08),rgba(255,255,255,.02))}
-.svc h3{font-size:19px}
-.svc .plat{font-family:var(--mono);font-size:12.5px;color:var(--dim)}
-.svc .price{font-family:var(--display);font-size:26px;font-weight:700;font-variant-numeric:tabular-nums}
-.svc .price small{font-family:var(--body);font-size:14px;font-weight:500;color:var(--muted)}
-.svc ul{margin:0;padding-left:18px;color:var(--muted);font-size:15px;display:grid;gap:4px}
-.svc .badge{align-self:flex-start;font-size:12px;font-weight:700;color:#06231a;background:var(--green);padding:3px 10px;border-radius:999px}
-.note{margin-top:22px;color:var(--dim);font-size:14.5px}
-@media (max-width:960px){.svc{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:620px){.svc{grid-template-columns:1fr}}
-
-/* process */
-.steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;counter-reset:s;list-style:none;margin:0;padding:0}
-.steps li{border-top:2px solid var(--line-2);padding-top:16px;counter-increment:s}
-.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--mono);font-size:13px;color:var(--green)}
-.steps h3{font-size:17px;margin:8px 0 6px}
-.steps p{color:var(--muted);font-size:15px}
-@media (max-width:900px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:520px){.steps{grid-template-columns:1fr}}
-
-/* contact */
-.contact{border:1px solid var(--line-2);border-radius:22px;padding:clamp(28px,5vw,56px);background:radial-gradient(120% 140% at 100% 0%,rgba(79,140,247,.22),transparent 55%),radial-gradient(120% 140% at 0% 100%,rgba(47,210,154,.16),transparent 55%),var(--bg-2);display:grid;grid-template-columns:1.1fr 1fr;gap:36px;align-items:center}
-.contact h2{font-size:clamp(30px,4vw,44px)}
-.contact p{color:var(--muted);margin-top:14px}
-.lines{display:grid;gap:12px}
-.line{display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid var(--line-2);border-radius:12px;padding:14px 16px;background:rgba(11,18,32,.6);min-width:0}
-.line .l{min-width:0}
-.line .t{font-family:var(--mono);font-size:12px;color:var(--dim);text-transform:uppercase;letter-spacing:.1em}
-.line .v{font-weight:700;overflow-wrap:anywhere}
-.line .acts{display:flex;gap:8px;flex-shrink:0}
-.mini{font:600 13px var(--body);padding:7px 12px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--fg);text-decoration:none;cursor:pointer}
-.mini.go{background:var(--green);border-color:var(--green);color:#06231a}
-@media (max-width:900px){.contact{grid-template-columns:1fr}}
-
-footer{padding-block:32px 48px;color:var(--dim);font-size:14px}
-footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
-</style>
+</script>
 </head>
-<body>
 
-<header class="nav">
-  <div class="wrap">
-    <a class="brand" href="#top"><i>M</i>Mahi Uddin Ahmed</a>
-    <ul>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#process">Process</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <a class="btn btn-primary" href="#contact">Get a quote</a>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="spot" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav__in">
+    <a class="nav__mark" href="#top" aria-label="Mahi Uddin Ahmed, back to top">MAHI</a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="nav__status"><span class="dot" aria-hidden="true"></span>Available for select projects</p>
   </div>
 </header>
 
-<main id="top">
-  <div class="wrap hero">
-    <div>
-      <span class="eyebrow">Website &amp; e-commerce developer · Dhaka</span>
-      <h1>Websites &amp; online stores <span class="grad">that bring in customers.</span></h1>
-      <p class="lede">I build Shopify and WordPress stores, business and clinic websites, and fully custom Next.js web apps for founders and small businesses. I also run my own e-commerce brands, so I build every site from the owner's side of the counter.</p>
-      <div class="ctas">
-        <a class="btn btn-primary" href="https://wa.me/8801339929296" target="_blank" rel="noopener">Message me on WhatsApp</a>
-        <a class="btn btn-ghost" href="#work">See live work</a>
-      </div>
-      <div class="stack">
-        <span class="chip">Shopify</span><span class="chip">WooCommerce</span><span class="chip">WordPress</span><span class="chip">Wix Studio</span><span class="chip">Framer</span><span class="chip">Next.js</span><span class="chip">Laravel</span>
-      </div>
-    </div>
-    <aside class="hero-card" aria-label="At a glance">
-      <span class="status"><b></b>Taking new projects for October</span>
-      <div class="row"><span class="k">Live stores built &amp; run</span><span class="v">4</span></div>
-      <div class="row"><span class="k">Works with clients in</span><span class="v">Bangladesh · UK · US</span></div>
-      <div class="row"><span class="k">Online store from</span><span class="v">৳50,000 / $600</span></div>
-      <div class="row"><span class="k">Reply time</span><span class="v">Within 24 hours</span></div>
-    </aside>
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero__grid" aria-hidden="true"></div>
+
+  <div class="hero__stage">
+    <h1 class="hero__type">
+      <span class="ln ln--a"><span class="ln__i">I BUILD</span></span>
+      <span class="ln ln--b"><span class="ln__i">DIGITAL</span></span>
+      <span class="ln ln--c"><span class="ln__i">WORLDS.</span></span>
+    </h1>
+
+    <figure class="hero__portrait">
+      <picture>
+        <source type="image/avif" srcset="/assets/img/mahi-portrait-760.avif 760w, /assets/img/mahi-portrait-1140.avif 1140w" sizes="(max-width:768px) 78vw, 42vw">
+        <source type="image/webp" srcset="/assets/img/mahi-portrait-760.webp 760w, /assets/img/mahi-portrait-1140.webp 1140w" sizes="(max-width:768px) 78vw, 42vw">
+        <img src="/assets/img/mahi-portrait-760.webp" width="760" height="1061"
+             alt="Mahi Uddin Ahmed" fetchpriority="high" decoding="async">
+      </picture>
+    </figure>
   </div>
 
-  <section id="work">
-    <div class="wrap">
-      <div class="sec-head">
-        <div><span class="eyebrow">Live work</span><h2>Stores I've built and still run</h2></div>
-        <p>Every project here is live today. Open any of them on your phone and try placing an order.</p>
-      </div>
-      <div class="work">
-        <a class="case" href="https://mynahmart.com" target="_blank" rel="noopener">
-          <div class="shot s-mynah"><div class="bar"><i></i><i></i><i></i><span>mynahmart.com</span></div><div class="mark">MYNAH MART</div><div class="tiles"><b></b><b></b><b></b><b></b></div></div>
-          <div class="body">
-            <span class="meta">Shopify · Bangladesh · my own brand</span>
-            <h3>MYNAH MART</h3>
-            <p>Full Shopify store for everyday essentials and organic food: product catalogue, combo bundles, local payments, SEO and Meta Pixel tracking for ads.</p>
-            <div class="tags"><span>Shopify</span><span>Bundles</span><span>Meta Pixel</span></div>
-          </div>
-        </a>
-        <a class="case" href="https://royaluseruk.com" target="_blank" rel="noopener">
-          <div class="shot s-ruuk"><div class="bar"><i></i><i></i><i></i><span>royaluseruk.com</span></div><div class="mark">ROYAL USER UK</div><div class="tiles"><b></b><b></b><b></b><b></b></div></div>
-          <div class="body">
-            <span class="meta">WordPress / WooCommerce · Bangladesh</span>
-            <h3>Royal User UK</h3>
-            <p>WooCommerce store for Royal Khati traditional foods: cash on delivery, delivery zones, showroom pickup and WhatsApp ordering, plus a POS/ERP back office with 100+ products.</p>
-            <div class="tags"><span>WooCommerce</span><span>POS / ERP</span><span>Inventory</span></div>
-          </div>
-        </a>
-        <a class="case" href="https://royaluserusa.com" target="_blank" rel="noopener">
-          <div class="shot s-ruus"><div class="bar"><i></i><i></i><i></i><span>royaluserusa.com</span></div><div class="mark">ROYAL USER USA</div><div class="tiles"><b></b><b></b><b></b><b></b></div></div>
-          <div class="body">
-            <span class="meta">Landing page · Bangladesh</span>
-            <h3>Royal User USA</h3>
-            <p>Bangla-language product landing page for herbal toothpaste and organic products, built to turn Facebook ad traffic into orders.</p>
-            <div class="tags"><span>Landing page</span><span>Ad funnel</span><span>Bangla</span></div>
-          </div>
-        </a>
-        <a class="case" href="https://garments-ta.com" target="_blank" rel="noopener">
-          <div class="shot s-mmt"><div class="bar"><i></i><i></i><i></i><span>garments-ta.com</span></div><div class="mark">MM TRIMS</div><div class="tiles"><b></b><b></b><b></b><b></b></div></div>
-          <div class="body">
-            <span class="meta">Business website · B2B · Bangladesh</span>
-            <h3>MM Trims &amp; Accessories</h3>
-            <p>Company website for a garments-accessories supplier, built so international buyers can see the product range and get in touch.</p>
-            <div class="tags"><span>Business site</span><span>B2B</span><span>Product range</span></div>
-          </div>
-        </a>
+  <div class="hero__foot">
+    <p class="hero__id">
+      <strong>Mahi Uddin Ahmed</strong>
+      <span>Digital Builder · E-commerce · Growth</span>
+    </p>
+    <a class="hero__scroll" href="#statement">
+      <span>Scroll to explore</span>
+      <svg viewBox="0 0 12 28" width="12" height="28" aria-hidden="true"><path d="M6 0v24M1 19l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marq" aria-hidden="true">
+  <div class="marq__track">
+    <span class="marq__set">
+      <i>Web</i><b>/</b><i>E-commerce</i><b>/</b><i>Growth</i><b>/</b><i>AI</i><b>/</b><i>Business</i><b>/</b><i>Digital</i><b>/</b>
+    </span>
+    <span class="marq__set">
+      <i>Web</i><b>/</b><i>E-commerce</i><b>/</b><i>Growth</i><b>/</b><i>AI</i><b>/</b><i>Business</i><b>/</b><i>Digital</i><b>/</b>
+    </span>
+  </div>
+</div>
+
+<!-- ================= STATEMENT ================= -->
+<section class="stmt" id="statement">
+  <h2 class="stmt__type reveal">
+    <span class="w">I</span> <span class="w">don’t</span> <span class="w">just</span> <span class="w">build</span> <span class="w">websites.</span>
+    <span class="br"></span>
+    <span class="w w--dim">I</span> <span class="w w--dim">build</span> <span class="w w--dim">what</span> <span class="w w--dim">happens</span> <span class="w w--dim">around</span> <span class="w w--dim">them.</span>
+  </h2>
+
+  <ul class="chain reveal">
+    <li>Website</li><li>E-commerce</li><li>Marketing</li><li>Operations</li><li>Automation</li><li>Growth</li>
+  </ul>
+</section>
+
+<!-- ================= WORK ================= -->
+<section class="work" id="work">
+  <h2 class="sect__h">Selected work</h2>
+
+  <!-- 01 MYNAH MART -->
+  <article class="proj reveal">
+    <p class="proj__num">01</p>
+    <div class="proj__head">
+      <p class="proj__cat">E-commerce · Brand · Operations</p>
+      <h3 class="proj__name">Mynah Mart</h3>
+    </div>
+
+    <div class="proj__visual">
+      <div class="frame frame--mart">
+        <div class="frame__bar"><span class="frame__dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="frame__url">mynahmart.com</span></div>
+        <div class="frame__body">
+          <p class="mart__logo">MYNAH MART</p>
+          <p class="mart__tag">Premium everyday essentials</p>
+          <ul class="mart__cats">
+            <li>Food &amp; Grocery</li><li>Health &amp; Personal Care</li><li>Baby &amp; Mother Care</li>
+            <li>Home &amp; Living</li><li>Electronics &amp; Gadgets</li><li>Travel Essentials</li>
+          </ul>
+          <ul class="mart__prods">
+            <li><span>Sundarban Raw Wild Honey</span></li>
+            <li><span>Cold-Pressed Mustard Oil</span></li>
+            <li><span>Khirsapad Polao Rice</span></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </section>
 
-  <section>
-    <div class="wrap why">
-      <blockquote>Most developers build websites. I also have to <span class="grad">sell through mine</span>, every day.</blockquote>
-      <ul class="checks">
-        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2fd29a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><div><strong>Built for a cheap phone on weak data</strong>Most of your customers will order from a phone. Pages stay light and checkout stays short.</div></li>
-        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2fd29a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><div><strong>You can run it without me</strong>You add products, change prices and edit pages yourself. I walk you through it before handover.</div></li>
-        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2fd29a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><div><strong>Ready for ads from day one</strong>Meta Pixel, Google Analytics and conversion tracking are set up, so you know which ad made the sale.</div></li>
-        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2fd29a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><div><strong>The right platform for your budget</strong>Shopify, WooCommerce, Wix, Framer or custom code. I recommend the one that fits, not the one I prefer.</div></li>
+    <div class="proj__meta">
+      <p class="proj__desc">An e-commerce ecosystem built from the ground up — storefront and product architecture through to marketing and day-to-day digital operations.</p>
+      <dl class="meta">
+        <dt>Role</dt><dd>Founder · E-commerce Manager · Digital Operations</dd>
+        <dt>Scope</dt><dd>Storefront, product system, payments, delivery, marketing</dd>
+      </dl>
+      <a class="proj__link" href="https://mynahmart.com" target="_blank" rel="noopener">Visit mynahmart.com</a>
+    </div>
+  </article>
+
+  <!-- 02 ROYAL USER UK -->
+  <article class="proj reveal">
+    <p class="proj__num">02</p>
+    <div class="proj__head">
+      <p class="proj__cat">Online store · WooCommerce</p>
+      <h3 class="proj__name">Royal User UK</h3>
+      <p class="proj__kicker">A full catalogue, built to be kept.</p>
+    </div>
+
+    <div class="proj__visual">
+      <div class="frame frame--rk">
+        <div class="frame__bar"><span class="frame__dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="frame__url">royaluseruk.com</span></div>
+        <div class="frame__body">
+          <p class="rk__logo">ROYAL USER UK</p>
+          <p class="rk__tag">Traditional foods, personal care, home and baby</p>
+          <ul class="rk__cats"><li>Rice</li><li>Dal &amp; Lentils</li><li>Ghee &amp; Oils</li><li>Honey</li><li>Spices</li><li>Personal Care</li><li>Home Care</li><li>Mother &amp; Baby</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj__meta">
+      <p class="proj__desc">A full storefront rather than a landing page: a deep product catalogue across eight categories, built so the owner can keep adding to it without me.</p>
+      <dl class="meta">
+        <dt>Role</dt><dd>Website &amp; Digital Operations</dd>
+        <dt>Scope</dt><dd>WordPress / WooCommerce, catalogue structure, delivery &amp; payment setup, maintenance</dd>
+      </dl>
+      <a class="proj__link" href="https://royaluseruk.com" target="_blank" rel="noopener">Visit royaluseruk.com</a>
+    </div>
+  </article>
+
+  <!-- 03 IN PROGRESS -->
+  <article class="proj proj--list reveal">
+    <p class="proj__num">03</p>
+    <div class="proj__head">
+      <p class="proj__cat">Currently building</p>
+      <h3 class="proj__name">In progress</h3>
+      <p class="proj__kicker">Three builds in flight right now.</p>
+    </div>
+    <div class="proj__meta proj__meta--full">
+      <ul class="other">
+        <li><span>boxcrave.com</span><span>New store, in build</span></li>
+        <li><span>royaluserusa.com</span><span>Redesign of an existing one-page order funnel into a proper storefront</span></li>
+        <li><span>garments-ta.com</span><span>B2B trims &amp; accessories — site redesign, and the DNS fix that goes with it</span></li>
       </ul>
     </div>
-  </section>
+  </article>
+</section>
 
-  <section id="services">
-    <div class="wrap">
-      <div class="sec-head">
-        <div><span class="eyebrow">Services &amp; starting prices</span><h2>Pick what you need</h2></div>
-        <div class="toggle" role="group" aria-label="Currency">
-          <button id="cur-bdt" type="button" aria-pressed="true" data-cur="bdt">Bangladesh (৳)</button>
-          <button id="cur-usd" type="button" aria-pressed="false" data-cur="usd">International ($)</button>
-        </div>
-      </div>
-      <div class="svc">
-        <article>
-          <h3>Landing page or portfolio</h3>
-          <span class="plat">Framer · Wix Studio</span>
-          <div class="price" data-bdt="৳15,000" data-usd="$250"><small>from </small><span>৳15,000</span></div>
-          <ul><li>One page that sells one thing</li><li>Mobile-first, fast, SEO basics</li><li>Contact or WhatsApp lead form</li></ul>
-        </article>
-        <article>
-          <h3>Business or clinic website</h3>
-          <span class="plat">WordPress · Wix Studio</span>
-          <div class="price" data-bdt="৳25,000" data-usd="$450"><small>from </small><span>৳25,000</span></div>
-          <ul><li>5–10 pages, services and team</li><li>Online booking or appointment form</li><li>Google Maps, reviews, local SEO</li></ul>
-        </article>
-        <article class="feat">
-          <span class="badge">Most requested</span>
-          <h3>Online store</h3>
-          <span class="plat">Shopify · WooCommerce</span>
-          <div class="price" data-bdt="৳50,000" data-usd="$600"><small>from </small><span>৳50,000</span></div>
-          <ul><li>Products, variants and bundles</li><li>Local and international payments</li><li>Courier, Pixel and analytics setup</li></ul>
-        </article>
-        <article>
-          <h3>Custom website or web app</h3>
-          <span class="plat">Next.js · React · Laravel</span>
-          <div class="price" data-bdt="৳1,00,000" data-usd="$2,000"><small>from </small><span>৳1,00,000</span></div>
-          <ul><li>Custom design and features</li><li>Headless Shopify storefronts</li><li>Booking, portals, dashboards</li></ul>
-        </article>
-        <article>
-          <h3>Business systems</h3>
-          <span class="plat">Laravel · POS / ERP</span>
-          <div class="price" data-bdt="Custom quote" data-usd="Custom quote"><span>Custom quote</span></div>
-          <ul><li>Inventory, POS and admin panels</li><li>Product and price data imports</li><li>Built around how your shop runs</li></ul>
-        </article>
-        <article>
-          <h3>Care &amp; maintenance</h3>
-          <span class="plat">Any platform</span>
-          <div class="price" data-bdt="৳4,000" data-usd="$100"><small>from </small><span>৳4,000</span><small> /month</small></div>
-          <ul><li>Updates, backups, security</li><li>Small edits and new products</li><li>Speed and uptime checks</li></ul>
-        </article>
-      </div>
-      <p class="note">Final price depends on pages, products and features. You get a fixed quote in writing before any work starts.</p>
-    </div>
-  </section>
+<!-- ================= CAPABILITIES ================= -->
+<section class="caps" id="capabilities">
+  <h2 class="sect__h">What I build</h2>
+  <div class="caps__grid">
+    <section class="cap reveal">
+      <p class="cap__num">01</p>
+      <h3 class="cap__name">Build</h3>
+      <ul><li>Websites</li><li>E-commerce</li><li>Shopify</li><li>WordPress</li><li>WooCommerce</li><li>Digital storefronts</li></ul>
+    </section>
+    <section class="cap reveal">
+      <p class="cap__num">02</p>
+      <h3 class="cap__name">Grow</h3>
+      <ul><li>Meta Ads</li><li>Google Ads</li><li>SEO</li><li>Content strategy</li><li>Analytics</li><li>Tracking</li></ul>
+    </section>
+    <section class="cap reveal">
+      <p class="cap__num">03</p>
+      <h3 class="cap__name">Operate</h3>
+      <ul><li>E-commerce operations</li><li>Product systems</li><li>Domains &amp; DNS</li><li>Hosting</li><li>Payments</li><li>Business infrastructure</li></ul>
+    </section>
+    <section class="cap reveal">
+      <p class="cap__num">04</p>
+      <h3 class="cap__name">Create</h3>
+      <ul><li>AI-assisted workflows</li><li>Creative systems</li><li>Content</li><li>Design</li><li>Automation</li><li>Digital experiments</li></ul>
+    </section>
+  </div>
+</section>
 
-  <section id="process">
-    <div class="wrap">
-      <div class="sec-head">
-        <div><span class="eyebrow">How a project runs</span><h2>From first message to launch</h2></div>
-        <p>A typical store goes live in 2–4 weeks. Custom builds take longer, and you see progress every week.</p>
-      </div>
-      <ol class="steps">
-        <li><h3>Free call</h3><p>You tell me about the business, the customers and the budget.</p></li>
-        <li><h3>Plan &amp; quote</h3><p>Platform choice, page list, timeline and a fixed price in writing.</p></li>
-        <li><h3>Design</h3><p>You approve the look on real screens before anything is built.</p></li>
-        <li><h3>Build &amp; test</h3><p>Products, payments and tracking set up, tested on real phones.</p></li>
-        <li><h3>Launch &amp; support</h3><p>Go live, a walkthrough of your admin, and help when you need it.</p></li>
-      </ol>
-    </div>
-  </section>
+<!-- ================= ABOUT (inverted) ================= -->
+<section class="about" id="about">
+  <div class="about__in">
+    <figure class="about__fig reveal">
+      <picture>
+        <source type="image/avif" srcset="/assets/img/mahi-about-640.avif 640w, /assets/img/mahi-about-960.avif 960w" sizes="(max-width:900px) 70vw, 32vw">
+        <source type="image/webp" srcset="/assets/img/mahi-about-640.webp 640w, /assets/img/mahi-about-960.webp 960w" sizes="(max-width:900px) 70vw, 32vw">
+        <img src="/assets/img/mahi-about-640.webp" width="640" height="798" alt="Mahi Uddin Ahmed" loading="lazy" decoding="async">
+      </picture>
+    </figure>
 
-  <section id="contact">
-    <div class="wrap">
-      <div class="contact">
-        <div>
-          <span class="eyebrow">Start a project</span>
-          <h2>Tell me what you're planning.</h2>
-          <p>Send a short message about your business and what the website should do. I'll reply within 24 hours with a clear plan and a quote.</p>
-        </div>
-        <div class="lines">
-          <div class="line"><div class="l"><div class="t">WhatsApp</div><div class="v" id="v-wa">+880 1339-929296</div></div><div class="acts"><button class="mini" type="button" data-copy="v-wa">Copy</button><a class="mini go" href="https://wa.me/8801339929296" target="_blank" rel="noopener">Open</a></div></div>
-          <div class="line"><div class="l"><div class="t">Email</div><div class="v" id="v-em">amahi2148@gmail.com</div></div><div class="acts"><button class="mini" type="button" data-copy="v-em">Copy</button></div></div>
-          <div class="line"><div class="l"><div class="t">LinkedIn</div><div class="v">linkedin.com/in/mahiuddinahmed</div></div><div class="acts"><a class="mini go" href="https://www.linkedin.com/in/mahiuddinahmed/" target="_blank" rel="noopener">Open</a></div></div>
-        </div>
+    <div class="about__body">
+      <h2 class="about__h reveal">I like building things that actually have to work.</h2>
+      <div class="about__text reveal">
+        <p>Most of what I build is something a real business depends on the next morning. A storefront that takes orders. A product catalogue someone has to keep accurate. A campaign that has to pay for itself. That changes how you design and what you are willing to ship.</p>
+        <p>I am not only a designer. I am not only a developer. I am not only a marketer. I work where business, technology, e-commerce, marketing, design and AI meet — and most of the useful problems live in the gaps between them.</p>
+        <p>I work from Dhaka, with clients in Bangladesh, the UK and the US.</p>
       </div>
+      <ul class="about__fields reveal">
+        <li>Business</li><li>Technology</li><li>E-commerce</li><li>Marketing</li><li>Design</li><li>AI</li>
+      </ul>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="exp" id="experience">
+  <h2 class="sect__h">Experience</h2>
+  <ol class="tl">
+    <!-- TODO(Mahi): add real start/end years in each <p class="tl__when"> below. -->
+    <li class="tl__item reveal">
+      <p class="tl__when">Present</p>
+      <div class="tl__body">
+        <h3>Mynah Mart</h3>
+        <p class="tl__role">Founder · E-commerce &amp; Digital Operations</p>
+        <p class="tl__note">Own e-commerce business: storefront, product system, marketing and daily operations.</p>
+      </div>
+    </li>
+    <li class="tl__item reveal">
+      <p class="tl__when">Present</p>
+      <div class="tl__body">
+        <h3>Royal User UK</h3>
+        <p class="tl__role">Website &amp; Digital Operations</p>
+        <p class="tl__note">Built and maintain the storefront — catalogue, payments, delivery.</p>
+      </div>
+    </li>
+    <li class="tl__item reveal">
+      <p class="tl__when">Earlier</p>
+      <div class="tl__body">
+        <h3>JMS Accessories / MM Trims &amp; Accessories</h3>
+        <p class="tl__role">Website &amp; Digital Presence</p>
+        <p class="tl__note">B2B trims and accessories — putting the business online.</p>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="cta" id="contact">
+  <h2 class="cta__type reveal">
+    <span class="w">Let’s</span> <span class="w">build</span>
+    <span class="br"></span>
+    <span class="w">something</span>
+    <span class="br"></span>
+    <span class="w">useful.</span>
+  </h2>
+
+  <a class="cta__btn" href="mailto:amahi2148@gmail.com?subject=Project%20enquiry" data-magnetic>
+    <span>Let’s talk</span>
+    <svg viewBox="0 0 24 10" width="24" height="10" aria-hidden="true"><path d="M0 5h22M18 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>
+  </a>
+
+  <ul class="cta__links">
+    <li><span>Email</span><a href="mailto:amahi2148@gmail.com">amahi2148@gmail.com</a></li>
+    <li><span>WhatsApp</span><a href="https://wa.me/8801339929296" target="_blank" rel="noopener">+880 1339 929296</a></li>
+    <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/mahiuddinahmed" target="_blank" rel="noopener">in/mahiuddinahmed</a></li>
+    <li><span>X</span><a href="https://x.com/mahiuddin46" target="_blank" rel="noopener">@mahiuddin46</a></li>
+    <li><span>GitHub</span><a href="https://github.com/mahiuddin46" target="_blank" rel="noopener">mahiuddin46</a></li>
+  </ul>
+</section>
+
 </main>
 
-<footer>
-  <div class="wrap"><span>© 2026 Mahi Uddin Ahmed · Dhaka, Bangladesh</span><span>Founder, MYNAH MART</span></div>
+<footer class="foot">
+  <p>Mahi Uddin Ahmed — Dhaka, Bangladesh</p>
+  <p><span id="yr">2026</span> · Built by hand</p>
 </footer>
 
-<script>
-document.querySelectorAll('.toggle button').forEach(b=>{
-  b.addEventListener('click',()=>{
-    const cur=b.dataset.cur;
-    document.querySelectorAll('.toggle button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
-    document.querySelectorAll('.price').forEach(p=>{const s=p.querySelector('span');if(s)s.textContent=p.dataset[cur];});
-  });
-});
-document.querySelectorAll('[data-copy]').forEach(btn=>{
-  btn.addEventListener('click',()=>{
-    const el=document.getElementById(btn.dataset.copy);const txt=el.textContent.trim();
-    const done=()=>{btn.textContent='Copied';setTimeout(()=>btn.textContent='Copy',1600);};
-    try{navigator.clipboard.writeText(txt).then(done,()=>{sel(el);});}catch(e){sel(el);}
-    function sel(n){const r=document.createRange();r.selectNodeContents(n);const s=getSelection();s.removeAllRanges();s.addRange(r);btn.textContent='Selected';}
-  });
-});
-</script>
+<script src="/assets/js/site.js" defer></script>
 </body>
 </html>
