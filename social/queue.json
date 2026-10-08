@@ -1,78 +1,235 @@
 [
- {"id":"q01","date":"2026-10-09","layout":"compare","pill":"Honest comparison","title":"Shopify or WooCommerce?","accent":"#38bdf8",
-  "left":{"h":"Shopify","rows":["Monthly fee, zero server headaches","Fastest to launch and easiest to run","Best when you sell products and want it simple","Apps cost extra as you grow"]},
-  "right":{"h":"WooCommerce","rows":["Your own hosting, one-time build cost","Fully flexible, any feature possible","Best for big catalogues and custom flows","Needs updates and a bit of care"]},
-  "foot":"I run one store on each. Ask me which fits you.",
-  "li":"Shopify or WooCommerce? I get this question every week, and I run one store on each, so here is the honest answer.\n\nShopify\n→ Monthly fee, zero server headaches\n→ Fastest to launch, easiest for staff to run\n→ Best when you sell products and want it simple\n→ Apps add cost as you grow\n\nWooCommerce\n→ Your own hosting, one-time build cost\n→ Fully flexible, any feature is possible\n→ Best for big catalogues and custom order flows\n→ Needs updates and a bit of care\n\nMYNAH MART runs on Shopify. Royal User UK runs on WooCommerce. Both take Cash on Delivery orders every day.\n\nThe platform matters less than two things: does it load fast on a phone, and can the owner manage it without calling a developer?\n\nPlanning a store? Tell me what you sell and I'll tell you which one I'd pick for you.\n\n#Shopify #WooCommerce #Ecommerce #SmallBusiness #WebDevelopment",
-  "fb":"Shopify নাকি WooCommerce? 🤔\n\nএই প্রশ্নটা আমি প্রতি সপ্তাহে শুনি। আমি দুটোতেই store চালাই (MYNAH MART Shopify-তে, Royal User UK WooCommerce-এ), তাই সোজা উত্তর:\n\n✅ Shopify: মাসিক fee, server-এর ঝামেলা নেই, সবচেয়ে দ্রুত launch, staff-রা সহজে চালাতে পারে। product বিক্রি করলে আর সহজ চাইলে এটা।\n✅ WooCommerce: নিজের hosting, একবারের খরচ, যেকোনো feature সম্ভব। বড় catalogue বা custom order flow লাগলে এটা।\n\nআসল কথা দুটো: phone-এ দ্রুত load হয় কিনা, আর developer ছাড়া আপনি নিজে চালাতে পারেন কিনা।\n\nStore-এর plan করছেন? কী বিক্রি করবেন বলুন, আমি বলব কোনটা আপনার জন্য ঠিক। 🌐 mahiuddinahmed.com\n\n#Shopify #WooCommerce #ecommerce #Bangladesh",
-  "x":"Shopify or WooCommerce? I run one store on each.\n\nShopify: monthly fee, zero server work, fastest launch.\nWooCommerce: own hosting, one-time cost, any feature possible.\n\nWhat matters more: fast on a phone + the owner can run it alone.\n\n#Shopify #WooCommerce #Ecommerce",
-  "ig":"Shopify or WooCommerce? 🤔 I run one store on each, so here's the honest answer.\n\n🟢 Shopify: monthly fee, no server headaches, fastest to launch, easiest for staff.\n🟣 WooCommerce: own hosting, one-time cost, fully flexible, needs a bit of care.\n\nWhat matters more than the platform: does it load fast on a phone, and can YOU run it without a developer?\n\nPlanning a store? DM me what you sell and I'll tell you which I'd pick.\n\n#shopify #woocommerce #ecommerce #onlinestore #webdeveloper #dhaka #bangladesh #smallbusiness"},
-
- {"id":"q02","date":"2026-10-10","layout":"existing","src":"p2.jpg","title":"I built my own e-commerce brand.",
-  "li":"I don't just build stores for clients. I run one myself.\n\nMYNAH MART is my own multi-category store in Bangladesh, built on Shopify. Running it every day taught me more than any tutorial:\n\n→ Many customers still want to order on WhatsApp, even with a cart right there\n→ Cash on Delivery orders need a fast confirmation step or they get cancelled\n→ Most visitors arrive from a Facebook ad on a phone with weak data, so every second of loading costs money\n→ Combo and bundle offers quietly raise the average order\n→ If the owner can't update stock and prices alone, the store stalls\n\nThat is the lens I bring to every client website: not 'does it look nice', but 'will it take orders tomorrow morning, and can you run it yourself?'\n\nIf you're planning a store, I'm happy to share what has worked for mine.\n\n#Ecommerce #Shopify #SmallBusiness #Bangladesh #WebDevelopment",
-  "fb":"আমি শুধু অন্যের জন্য store বানাই না, নিজেও একটা চালাই। 🛒\n\nMYNAH MART আমার নিজের brand, Shopify-তে বানানো। প্রতিদিন চালাতে গিয়ে যা শিখেছি:\n✅ cart থাকলেও অনেক customer WhatsApp-এ order করতে চান\n✅ COD order দ্রুত confirm না করলে বাতিল হয়\n✅ বেশিরভাগ visitor আসে Facebook ad থেকে, phone-এ, দুর্বল net-এ\n✅ combo offer চুপচাপ order-এর টাকা বাড়ায়\n✅ মালিক নিজে stock আর দাম বদলাতে না পারলে store থেমে যায়\n\nএই চোখ দিয়েই আমি প্রতিটা client-এর site বানাই। সুন্দর দেখানো না, order আসা আর নিজে চালানো, এটাই লক্ষ্য।\n\nStore-এর plan করছেন? message দিন। 🌐 mahiuddinahmed.com\n\n#mynahmart #ecommerce #shopify #Bangladesh",
-  "x":"I don't just build stores for clients. I run one myself.\n\nRunning MYNAH MART taught me:\n• customers still order on WhatsApp\n• slow COD confirmation = cancelled orders\n• most traffic is a phone on weak data\n• bundles raise order value\n\nThat's the lens I build every client site with.",
-  "ig":"I don't just build stores for clients — I run one myself. 🛒\n\nMYNAH MART is my own e-commerce brand on Shopify. Running it taught me what store owners actually need:\n✅ A simple Cash on Delivery checkout\n✅ Fast pages on 4G phones\n✅ Combo & bundle offers that raise order value\n✅ A backend your staff can manage without a developer\n\nThat's what I bring to every website I build.\n\nPlanning a store? DM me.\n\n#mynahmart #ecommerce #shopify #onlinebusiness #dhaka #bangladesh #webdeveloper"},
-
- {"id":"q03","date":"2026-10-11","layout":"list","pill":"Checklist","title":"What a clinic website actually needs","accent":"#34d399",
-  "rows":[["Book an appointment in 3 taps","No forms with 12 fields. Name, phone, time."],["Doctors with photos and schedules","People choose a doctor, not a building."],["Click-to-call and WhatsApp","Most patients still want to talk first."],["Location, hours, parking","On every page, not hidden in a footer."],["Fast on a phone","A worried parent on 4G will not wait."],["Google Business + reviews","That is where the search starts."]],
-  "foot":"Built for clinics, diagnostic centres and dental practices in Dhaka.",
-  "li":"What a clinic website actually needs (and what it doesn't).\n\nI looked at a lot of clinic and diagnostic-centre websites in Dhaka this week. Most of them are a brochure. A patient needs something simpler:\n\n1. Book an appointment in 3 taps: name, phone, time. Not a 12-field form.\n2. Doctors with photos and schedules. People choose a doctor, not a building.\n3. Click-to-call and WhatsApp on every page. Most patients still want to talk first.\n4. Location, hours and parking where you can see them.\n5. Fast on a phone. A worried parent on 4G will not wait 8 seconds.\n6. Google Business Profile with reviews, because that's where the search starts.\n\nNone of this is expensive. It is just deciding that the website's job is to get a patient through the door.\n\nIf you run a clinic, diagnostic centre or dental practice and your site doesn't do these six things, I'm happy to show you a sample homepage that does.\n\n#Healthcare #Clinic #WebDesign #Dhaka #SmallBusiness",
-  "fb":"একটা clinic-এর website-এ আসলে কী কী লাগে? 🏥\n\nএই সপ্তাহে ঢাকার অনেক clinic আর diagnostic centre-এর site দেখলাম। বেশিরভাগই শুধু brochure। রোগীর দরকার অনেক সহজ জিনিস:\n1️⃣ ৩ tap-এ appointment: নাম, ফোন, সময়\n2️⃣ ডাক্তারের ছবি আর schedule, মানুষ ডাক্তার বেছে নেয়, building না\n3️⃣ প্রতিটা page-এ call আর WhatsApp button\n4️⃣ ঠিকানা, সময়, parking সামনে\n5️⃣ phone-এ দ্রুত load\n6️⃣ Google Business profile আর review\n\nএগুলো খরচের ব্যাপার না, সিদ্ধান্তের ব্যাপার: website-এর কাজ রোগীকে দরজা পর্যন্ত আনা।\n\nআপনার clinic, diagnostic centre বা dental chamber-এর site এগুলো করে না? একটা free sample homepage বানিয়ে দেখাতে পারি। 🌐 mahiuddinahmed.com\n\n#clinic #healthcare #website #Dhaka",
-  "x":"What a clinic website actually needs:\n\n1. Book in 3 taps\n2. Doctors with photos + schedules\n3. Call & WhatsApp on every page\n4. Location, hours, parking up front\n5. Fast on a phone\n6. Google Business + reviews\n\nNot expensive. Just deciding the site's job is to bring a patient in.",
-  "ig":"What a clinic website actually needs 🏥\n\n1️⃣ Book an appointment in 3 taps\n2️⃣ Doctors with photos and schedules\n3️⃣ Call & WhatsApp on every page\n4️⃣ Location, hours, parking up front\n5️⃣ Fast on a phone\n6️⃣ Google Business profile + reviews\n\nNone of this is expensive. It's deciding that the website's job is to bring a patient through the door.\n\nRun a clinic or dental practice? DM me 'CLINIC' for a free sample homepage.\n\n#clinic #dental #healthcare #webdesign #dhaka #bangladesh #smallbusiness #webdeveloper"},
-
- {"id":"q04","date":"2026-10-12","layout":"existing","src":"p1.jpg","title":"Your website should sell while you sleep.",
-  "li":"Your website should sell while you sleep.\n\nThat is the whole job. Not 'look modern'. Not 'have an About page'. Take the order at 1 a.m. when you are asleep and the customer is scrolling.\n\nWhat that takes, from running my own stores:\n→ A checkout that works with Cash on Delivery, bKash and cards\n→ Pages that load in under 3 seconds on a 4G phone\n→ One clear next step on every page: buy, book, or message\n→ Tracking, so you know which ad brought the sale\n→ An admin you can run yourself\n\nI build Shopify, WooCommerce and custom websites for businesses in Bangladesh, the UK and the US. I'm taking new projects now.\n\nIf you're planning one, send me a message and I'll start with a free sample homepage so you can see it before deciding anything.\n\n#WebDevelopment #Shopify #WooCommerce #Ecommerce #Freelance",
-  "fb":"আপনার website-এর কাজ একটাই: আপনি ঘুমালেও order নেওয়া। 🌙\n\n'modern দেখানো' না, 'About page থাকা' না। রাত ১টায় customer scroll করছে, site order নেবে।\n\nনিজের store চালিয়ে যা শিখেছি, সেটার জন্য লাগে:\n✔️ COD, bKash আর card-এ checkout\n✔️ 4G phone-এ ৩ সেকেন্ডের নিচে load\n✔️ প্রতিটা page-এ একটা পরিষ্কার next step: কিনুন, book করুন, message দিন\n✔️ tracking, যাতে জানেন কোন ad থেকে বিক্রি হলো\n✔️ এমন admin যেটা আপনি নিজে চালাতে পারেন\n\nআমি Shopify, WordPress আর custom website বানাই। এখন নতুন project নিচ্ছি। আগে free sample homepage বানিয়ে দেখাই, তারপর আপনি সিদ্ধান্ত নেবেন।\n📩 WhatsApp 01339-929296 · 🌐 mahiuddinahmed.com\n\n#webdeveloper #shopify #wordpress #ecommerce #Bangladesh",
-  "x":"Your website should sell while you sleep.\n\nThat means: COD/bKash/card checkout, <3s on a 4G phone, one clear next step per page, tracking, and an admin you can run yourself.\n\nTaking new projects. Free sample homepage first.",
-  "ig":"Your website should sell while you sleep. 🌙\n\nI'm Mahi — I build Shopify, WordPress & custom websites for businesses in Bangladesh, the UK & the US.\n\n✔️ Online stores with Cash on Delivery, bKash & Nagad\n✔️ Mobile-first, fast-loading pages\n✔️ Clear calls to action that turn visitors into orders\n\n📩 Taking new projects now — DM me or WhatsApp 01339-929296\n🌐 mahiuddinahmed.com\n\n#webdeveloper #shopifyexpert #wordpressdeveloper #ecommercewebsite #dhaka #bangladesh #freelancer"},
-
- {"id":"q05","date":"2026-10-13","layout":"list","pill":"From my own store","title":"4 ways to cut Cash-on-Delivery cancellations","accent":"#f59e0b",
-  "rows":[["Confirm within the hour","A quick call or WhatsApp while the intent is fresh."],["Show the delivery charge before checkout","Surprise fees are the #1 reason people refuse at the door."],["Give a delivery window, then keep it","'Tomorrow 2–6 pm' beats '3–5 working days'."],["Send a tracking update","One message when it ships. Fewer 'where is my order' calls, fewer refusals."]],
-  "foot":"Learned the hard way at MYNAH MART.",
-  "li":"Cash on Delivery is how Bangladesh buys online. It is also where stores quietly lose money: the parcel comes back, and you've paid the courier twice.\n\nFour things that cut cancellations at my own store, MYNAH MART:\n\n1. Confirm within the hour. A quick call or WhatsApp while the intent is fresh.\n2. Show the delivery charge before checkout. Surprise fees are the number one reason people refuse at the door.\n3. Give a delivery window and keep it. 'Tomorrow 2–6 pm' beats '3–5 working days'.\n4. Send one tracking update when it ships. Fewer 'where is my order?' calls, fewer refusals.\n\nNone of these are design features. They are workflow features, and a good store build makes them automatic: delivery charge calculated by zone, confirmation message triggered on order, status updates sent without anyone typing.\n\nThis is the part of e-commerce most developers never see, because they don't run a store. I do, so I build it in.\n\n#Ecommerce #CashOnDelivery #Bangladesh #Shopify #WooCommerce",
-  "fb":"COD order বাতিল কমানোর ৪টা উপায় (নিজের store থেকে শেখা) 📦\n\nBangladesh-এ online কেনাকাটার বেশিরভাগই Cash on Delivery। আর এখানেই store চুপচাপ টাকা হারায়: parcel ফেরত আসে, courier-কে দুইবার টাকা দিতে হয়।\n\nMYNAH MART-এ যা কাজে লেগেছে:\n1️⃣ এক ঘণ্টার মধ্যে confirm: ছোট একটা call বা WhatsApp\n2️⃣ checkout-এর আগেই delivery charge দেখানো, দরজায় surprise fee-ই refuse-এর ১ নম্বর কারণ\n3️⃣ delivery-র সময় বলা আর সেটা রাখা: 'কাল ২–৬টা' > '৩–৫ কর্মদিবস'\n4️⃣ ship হলে একটা tracking message\n\nএগুলো design না, workflow। ভালো store build-এ এগুলো automatic হয়: zone অনুযায়ী delivery charge, order হলেই confirmation message, status update নিজে থেকে।\n\nআপনার store-এ COD cancel বেশি? message দিন, দেখিয়ে দেব কোথায় fix করা যায়। 🌐 mahiuddinahmed.com\n\n#COD #ecommerce #Bangladesh #onlinebusiness",
-  "x":"4 ways to cut Cash-on-Delivery cancellations (from running my own store):\n\n1. Confirm within the hour\n2. Show delivery charge before checkout\n3. Give a delivery window and keep it\n4. One tracking message when it ships\n\nThese are workflow features. A good store build makes them automatic.",
-  "ig":"4 ways to cut Cash-on-Delivery cancellations 📦 (learned at my own store, MYNAH MART)\n\n1️⃣ Confirm within the hour\n2️⃣ Show the delivery charge before checkout\n3️⃣ Give a delivery window and keep it\n4️⃣ Send one tracking update when it ships\n\nNone of these are design. They're workflow, and a good store build makes them automatic.\n\nCOD cancellations hurting your store? DM me 'COD'.\n\n#cashondelivery #ecommerce #bangladesh #shopify #woocommerce #onlinestore #dhaka #webdeveloper"},
-
- {"id":"q06","date":"2026-10-14","layout":"list","pill":"Hire smart","title":"5 questions to ask before you hire a web developer","accent":"#a78bfa",
-  "rows":[["Can I see something live, not just screenshots?","Open it on your phone and try to order."],["Who owns the domain, hosting and admin?","You should. Always."],["What happens after launch?","Support period, update cost, response time."],["Is the price fixed, and what does it include?","Pages, products, payments, training. In writing."],["Can I run it without you?","If the answer is no, keep looking."]],
-  "foot":"Ask me these. I like answering them.",
-  "li":"5 questions to ask before you hire a web developer (including me).\n\n1. Can I see something live, not just screenshots? Open it on your phone and try to place an order.\n2. Who owns the domain, hosting and admin login? You should. Always. I've seen businesses lose their own website because it was registered in a developer's name.\n3. What happens after launch? Support period, cost of updates, how fast they reply.\n4. Is the price fixed, and what exactly does it include? Pages, products, payments, training. Get it in writing.\n5. Can I run it without you? If the answer is no, keep looking.\n\nA good developer is happy to answer all five. If someone gets uncomfortable, that tells you something.\n\nMy answers, for the record: mynahmart.com and royaluseruk.com are live and take orders daily; everything is registered in the client's name; 30 days of support after launch; fixed price in writing before we start; and I walk you through the admin so you don't need me for a price change.\n\n#WebDevelopment #SmallBusiness #Freelance #Ecommerce #Dhaka",
-  "fb":"Web developer hire করার আগে এই ৫টা প্রশ্ন করুন (আমাকেও করবেন) 🧐\n\n1️⃣ live কিছু দেখাতে পারবেন, শুধু screenshot না? phone-এ খুলে order দিয়ে দেখুন।\n2️⃣ domain, hosting আর admin login কার নামে? আপনার নামে হতে হবে, সবসময়। developer-এর নামে থাকায় নিজের website হারানো business আমি দেখেছি।\n3️⃣ launch-এর পরে কী? support কতদিন, update-এর খরচ, কত দ্রুত reply।\n4️⃣ দাম কি fixed, আর তাতে কী কী আছে? page, product, payment, training, লিখিত।\n5️⃣ আপনাকে ছাড়া আমি কি চালাতে পারব? উত্তর 'না' হলে অন্য কাউকে খুঁজুন।\n\nভালো developer এই ৫টার উত্তর খুশি মনে দেয়।\n\nআমার উত্তর: mynahmart.com আর royaluseruk.com live, রোজ order নেয়; সব client-এর নামে register; launch-এর পর ৩০ দিন support; শুরুর আগে লিখিত fixed price; আর admin শিখিয়ে দিই যাতে দাম বদলাতে আমাকে লাগে না। 🌐 mahiuddinahmed.com\n\n#webdeveloper #website #Bangladesh #smallbusiness",
-  "x":"5 questions to ask before hiring a web developer:\n\n1. Can I see something live, not screenshots?\n2. Who owns the domain, hosting, admin? (You.)\n3. What happens after launch?\n4. Is the price fixed and what's included?\n5. Can I run it without you?\n\nIf they get uncomfortable, that's your answer.",
-  "ig":"5 questions to ask before you hire a web developer (yes, including me) 🧐\n\n1️⃣ Can I see something live, not just screenshots?\n2️⃣ Who owns the domain, hosting and admin? (You should.)\n3️⃣ What happens after launch?\n4️⃣ Is the price fixed, and what does it include?\n5️⃣ Can I run it without you?\n\nA good developer is happy to answer all five.\n\nSave this for when you're ready to build.\n\n#webdeveloper #website #smallbusiness #hiring #ecommerce #dhaka #bangladesh #freelancer"},
-
- {"id":"q07","date":"2026-10-15","layout":"big","pill":"Small fix, big result","title":"The cheapest sales fix on any website:","big":"a WhatsApp button.","accent":"#25D366",
-  "sub":"Most customers in Bangladesh want to ask one question before they buy. If the only option is a contact form, they leave. One green button on every page keeps the conversation, and the sale, alive.",
-  "foot":"Takes 20 minutes to add. Ask me how.",
-  "li":"The cheapest sales fix I know for any website in Bangladesh: a WhatsApp button.\n\nMost customers here want to ask one question before they buy. 'Is this in stock?' 'Can you deliver to Uttara tomorrow?' 'Is the price for one or two?'\n\nIf the only option is a contact form, they leave. If there is a green WhatsApp button on every page, the conversation starts, and most of the time, the order follows.\n\nAt Royal User UK, WhatsApp ordering sits right next to the cart, and plenty of customers use it. At MYNAH MART the same. It is not a sign the website failed. It is how people here like to buy.\n\nTwo details that matter:\n→ Pre-fill the message with the product name, so the customer doesn't have to type\n→ Reply fast. A WhatsApp lead that waits an hour is usually gone\n\nIt takes about 20 minutes to add properly. If your site doesn't have one, that's the first thing I'd fix.\n\n#Ecommerce #WhatsApp #Bangladesh #SmallBusiness #WebDesign",
-  "fb":"যেকোনো website-এর সবচেয়ে সস্তা sales fix: একটা WhatsApp button। 💬\n\nBangladesh-এ বেশিরভাগ customer কেনার আগে একটা প্রশ্ন করতে চান। 'stock-এ আছে?' 'কাল Uttara-য় delivery হবে?' 'দামটা একটার না দুইটার?'\n\nশুধু contact form থাকলে তারা চলে যায়। প্রতিটা page-এ সবুজ WhatsApp button থাকলে কথা শুরু হয়, আর বেশিরভাগ সময় order-ও হয়।\n\nRoyal User UK আর MYNAH MART দুই জায়গাতেই cart-এর পাশে WhatsApp order আছে, আর অনেকে সেটাই ব্যবহার করেন। এটা website-এর ব্যর্থতা না, এখানকার মানুষ এভাবেই কিনতে পছন্দ করেন।\n\n২টা জিনিস খেয়াল রাখবেন:\n✔️ message-এ product-এর নাম আগে থেকে লেখা থাকুক\n✔️ দ্রুত reply দিন, এক ঘণ্টা অপেক্ষা করা lead সাধারণত চলে যায়\n\nযোগ করতে ২০ মিনিট লাগে। আপনার site-এ নেই? message দিন। 🌐 mahiuddinahmed.com\n\n#WhatsApp #ecommerce #Bangladesh #onlinebusiness",
-  "x":"Cheapest sales fix for any website in Bangladesh: a WhatsApp button on every page.\n\nCustomers want to ask one question before buying. A contact form loses them. A green button keeps the sale alive.\n\nPre-fill the product name. Reply fast. 20 minutes to add.",
-  "ig":"The cheapest sales fix on any website: a WhatsApp button 💬\n\nMost customers in Bangladesh want to ask ONE question before they buy. A contact form loses them. A green button on every page keeps the conversation (and the sale) alive.\n\n✔️ Pre-fill the product name\n✔️ Reply fast\n\nTakes 20 minutes to add. Your site doesn't have one? DM me.\n\n#whatsapp #ecommerce #smallbusiness #bangladesh #dhaka #webdesign #onlinestore #webdeveloper"},
-
- {"id":"q08","date":"2026-10-16","layout":"portrait","pill":"Why I build the way I do","title":"When your own money is on the line, you learn fast what a website is for.","accent":"#f59e0b",
-  "sub":"I've built websites since 2022. In 2026 I launched my own store, MYNAH MART. Nothing teaches you faster than watching real orders come in, and real customers drop off, on a site you built.",
-  "foot":"Mahi Uddin Ahmed · Website & E-commerce Developer, Dhaka",
-  "li":"When your own money is on the line, you learn fast what a website is actually for.\n\nI've been building websites since 2022. In 2026 I launched my own store, MYNAH MART. Nothing taught me faster than watching real orders come in, and real customers drop off, on a site I built myself.\n\nThings I used to think mattered: the hero animation, the perfect font pairing, a long About page.\n\nThings that actually moved the numbers: a 3-second load on a cheap phone, the delivery charge shown before checkout, a WhatsApp button, a COD confirmation that goes out in minutes, and an admin simple enough that I could update 40 prices on a Friday night without touching code.\n\nThat's why every client site I build now starts from the owner's side of the counter, not the developer's. The question is never 'does it look good?' It's 'will it take orders tomorrow morning, and can you run it without me?'\n\nIf you're a founder planning a store or a business website, I'd be glad to talk.\n\n#Entrepreneurship #Ecommerce #WebDevelopment #Bangladesh #Shopify",
-  "fb":"নিজের টাকা যখন লাগে, তখন খুব দ্রুত শেখা যায় website আসলে কিসের জন্য। 💡\n\n২০২২ থেকে website বানাই। ২০২৬-এ নিজের store MYNAH MART চালু করলাম। নিজের বানানো site-এ আসল order আসা, আর আসল customer চলে যাওয়া দেখার চেয়ে বড় শিক্ষা আর নেই।\n\nআগে ভাবতাম যা জরুরি: hero animation, perfect font, লম্বা About page।\nযা আসলে সংখ্যা বদলালো: সস্তা phone-এ ৩ সেকেন্ডে load, checkout-এর আগে delivery charge, WhatsApp button, মিনিটের মধ্যে COD confirmation, আর এমন সহজ admin যে শুক্রবার রাতে ৪০টা দাম code ছাড়াই বদলাতে পারি।\n\nতাই এখন প্রতিটা client-এর site দোকানদারের দিক থেকে বানাই, developer-এর দিক থেকে না। প্রশ্ন 'সুন্দর দেখাচ্ছে?' না, প্রশ্ন 'কাল সকালে order নেবে? আপনি নিজে চালাতে পারবেন?'\n\nStore বা business website-এর plan করছেন? কথা বলতে পারি। 🌐 mahiuddinahmed.com\n\n#entrepreneur #ecommerce #webdeveloper #Bangladesh",
-  "x":"When your own money is on the line you learn fast what a website is for.\n\nWhat I thought mattered: hero animation, fonts, long About page.\nWhat moved the numbers: 3s load on a cheap phone, delivery charge before checkout, WhatsApp button, fast COD confirmation, simple admin.",
-  "ig":"When your own money is on the line, you learn fast what a website is for. 💡\n\nI've built websites since 2022. In 2026 I launched my own store, MYNAH MART. Watching real orders come in (and real customers drop off) taught me more than any course.\n\nWhat actually moved the numbers: fast load on a cheap phone, delivery charge before checkout, a WhatsApp button, quick COD confirmation, and an admin simple enough to run alone.\n\nThat's the lens I build every client site with.\n\n#entrepreneur #ecommerce #webdeveloper #shopify #dhaka #bangladesh #smallbusiness #founder"},
-
- {"id":"q09","date":"2026-10-17","layout":"big","pill":"The 3-second rule","title":"If your site takes longer than 3 seconds on a phone,","big":"half your visitors are already gone.","accent":"#fb7185",
-  "sub":"Most of your customers are on a mid-range phone, on 4G, coming from a Facebook ad. They did not come to wait. Compress the images, cut the apps you don't use, lazy-load below the fold, and test on a real phone, not your laptop.",
-  "foot":"Want a free speed check of your site? Send me the link.",
-  "li":"If your website takes longer than 3 seconds to load on a phone, about half of your visitors are already gone.\n\nThat is not a design opinion. It is what happens to ad traffic: someone taps a Facebook ad on a mid-range phone on 4G, the page spins, they go back to scrolling. You paid for that click.\n\nThe usual causes I find on business and store websites:\n→ Product photos uploaded straight from the camera, 3–5 MB each\n→ Apps and plugins installed once and never removed, each loading its own scripts\n→ A slider with six giant images above the fold\n→ No lazy-loading, so the whole page loads before anything shows\n→ Tested only on the developer's laptop on office Wi-Fi\n\nThe fixes are not glamorous: compress and resize images, remove dead apps, defer non-critical scripts, lazy-load below the fold, and test on a real phone.\n\nAt MYNAH MART this is a monthly check, because most of our visitors arrive from ads on phones.\n\nWant a free speed check of your site? Send me the link and I'll tell you what's slowing it down.\n\n#WebPerformance #Ecommerce #Shopify #WordPress #SmallBusiness",
-  "fb":"phone-এ আপনার website ৩ সেকেন্ডের বেশি নিলে, অর্ধেক visitor এর মধ্যেই চলে গেছে। ⏱️\n\nএটা design-এর মতামত না, ad traffic-এর সাথে এটাই হয়: কেউ Facebook ad-এ tap করল, mid-range phone, 4G, page ঘুরছে, সে আবার scroll-এ ফিরে গেল। click-এর টাকা আপনার গেল।\n\nযে কারণগুলো বেশি পাই:\n❌ camera থেকে সরাসরি upload করা ৩–৫ MB-র ছবি\n❌ একবার install করে আর remove না করা app/plugin\n❌ ওপরে ৬টা বিশাল ছবির slider\n❌ lazy-load নেই\n❌ শুধু developer-এর laptop-এ, office Wi-Fi-তে test\n\nFix-গুলো সাধারণ: ছবি compress, মরা app বাদ, script defer, lazy-load, আর আসল phone-এ test।\n\nMYNAH MART-এ এটা প্রতি মাসের check, কারণ আমাদের বেশিরভাগ visitor ad থেকে phone-এ আসে।\n\nআপনার site-এর free speed check চান? link পাঠান, বলে দেব কী slow করছে। 🌐 mahiuddinahmed.com\n\n#websitespeed #ecommerce #Bangladesh #smallbusiness",
-  "x":"If your site takes >3 seconds on a phone, about half your visitors are gone. You paid for that ad click.\n\nUsual causes: 5 MB photos, dead plugins, giant sliders, no lazy-load, tested only on a laptop.\n\nFree speed check: send me your link.",
-  "ig":"If your website takes longer than 3 seconds on a phone, half your visitors are already gone. ⏱️\n\nUsual causes:\n❌ 5 MB photos straight from the camera\n❌ Plugins installed and never removed\n❌ A giant slider above the fold\n❌ No lazy-loading\n❌ Tested only on a laptop\n\nThe fixes aren't glamorous, but they're where the money is.\n\nWant a free speed check? DM me your link.\n\n#websitespeed #pagespeed #ecommerce #shopify #wordpress #dhaka #bangladesh #webdeveloper"},
-
- {"id":"q10","date":"2026-10-18","layout":"list","pill":"How it works","title":"See your new homepage before you pay anything","accent":"#34d399",
-  "rows":[["1. A 10-minute call","You tell me about the business. I listen. No pitch, no price yet."],["2. A free sample homepage in 48 hours","A real design for your business, so you decide with your eyes."],["3. A one-page plan with a fixed price","Pages, features, timeline, milestones. In writing."],["4. Build, launch, 30 days of support","And a walkthrough so you can run it yourself."]],
-  "foot":"Taking new projects now. WhatsApp 01339-929296 · mahiuddinahmed.com",
-  "li":"Here is how I work with new clients, so there are no surprises.\n\n1. A 10-minute call. You tell me about the business, how customers find you now, and what the website has to do. I listen. No pitch, no price yet.\n\n2. A free sample homepage within 48 hours. A real design for your business, not a template screenshot, so you decide with your eyes instead of from promises. If you don't like it, you owe nothing.\n\n3. A one-page plan with a fixed price. Platform, page list, features, timeline, milestones, and what I need from you. In writing, before any work starts.\n\n4. Build, launch, and 30 days of support. Progress every week, tested on real phones, and a walkthrough of your admin so you can run it without me.\n\nI build Shopify, WooCommerce, WordPress and custom websites, and I run my own stores, so I know what has to work after launch.\n\nI'm taking new projects now. If you're planning a store or a business website, send me a message and we'll start with the call.\n\n#WebDevelopment #Shopify #WooCommerce #SmallBusiness #Freelance",
-  "fb":"কোনো টাকা দেওয়ার আগেই আপনার নতুন homepage দেখুন। ✅\n\nনতুন client-দের সাথে আমি এভাবে কাজ করি, যাতে কোনো surprise না থাকে:\n1️⃣ ১০ মিনিটের call: আপনি business-এর কথা বলবেন, আমি শুনব। pitch না, দাম না।\n2️⃣ ৪৮ ঘণ্টায় free sample homepage: আপনার business-এর জন্য আসল design, template-এর screenshot না। পছন্দ না হলে কিছু দিতে হবে না।\n3️⃣ এক পাতার plan আর fixed price: page, feature, সময়, milestone, আপনার কাছ থেকে কী লাগবে, সব লিখিত।\n4️⃣ build, launch, আর ৩০ দিন support: প্রতি সপ্তাহে progress, আসল phone-এ test, আর admin শিখিয়ে দেওয়া।\n\nShopify, WooCommerce, WordPress আর custom website বানাই, নিজের store-ও চালাই।\n\nএখন নতুন project নিচ্ছি। store বা business website-এর plan থাকলে message দিন।\n📩 WhatsApp 01339-929296 · 🌐 mahiuddinahmed.com\n\n#webdeveloper #website #ecommerce #Dhaka #Bangladesh",
-  "x":"How I work with new clients:\n\n1. 10-min call. I listen.\n2. Free sample homepage in 48h. You decide with your eyes.\n3. One-page plan, fixed price, in writing.\n4. Build, launch, 30 days support.\n\nTaking new projects now. mahiuddinahmed.com",
-  "ig":"See your new homepage before you pay anything ✅\n\nHow I work:\n1️⃣ A 10-minute call. You talk, I listen.\n2️⃣ A free sample homepage in 48 hours. Decide with your eyes.\n3️⃣ A one-page plan with a fixed price. In writing.\n4️⃣ Build, launch, 30 days of support.\n\nTaking new projects now. DM me or WhatsApp 01339-929296.\n🌐 mahiuddinahmed.com\n\n#webdeveloper #shopify #woocommerce #wordpress #ecommerce #dhaka #bangladesh #freelancer #smallbusiness"}
+ {
+  "id": "q01",
+  "date": "2026-10-09",
+  "layout": "compare",
+  "pill": "Honest comparison",
+  "title": "Shopify or WooCommerce?",
+  "accent": "#38bdf8",
+  "left": {
+   "h": "Shopify",
+   "rows": [
+    "Monthly fee, zero server headaches",
+    "Fastest to launch and easiest to run",
+    "Best when you sell products and want it simple",
+    "Apps cost extra as you grow"
+   ]
+  },
+  "right": {
+   "h": "WooCommerce",
+   "rows": [
+    "Your own hosting, one-time build cost",
+    "Fully flexible, any feature possible",
+    "Best for big catalogues and custom flows",
+    "Needs updates and a bit of care"
+   ]
+  },
+  "foot": "I run one store on each. Ask me which fits you.",
+  "li": "Shopify or WooCommerce? I get this question every week, and I run one store on each, so here is the honest answer.\n\nShopify\n→ Monthly fee, zero server headaches\n→ Fastest to launch, easiest for staff to run\n→ Best when you sell products and want it simple\n→ Apps add cost as you grow\n\nWooCommerce\n→ Your own hosting, one-time build cost\n→ Fully flexible, any feature is possible\n→ Best for big catalogues and custom order flows\n→ Needs updates and a bit of care\n\nMYNAH MART runs on Shopify. Royal User UK runs on WooCommerce. Both take Cash on Delivery orders every day.\n\nThe platform matters less than two things: does it load fast on a phone, and can the owner manage it without calling a developer?\n\nPlanning a store? Tell me what you sell and I'll tell you which one I'd pick for you.\n\n#Shopify #WooCommerce #Ecommerce #SmallBusiness #WebDevelopment",
+  "fb": "Shopify নাকি WooCommerce? 🤔\n\nএই প্রশ্নটা আমি প্রতি সপ্তাহে শুনি। আমি দুটোতেই store চালাই (MYNAH MART Shopify-তে, Royal User UK WooCommerce-এ), তাই সোজা উত্তর:\n\n✅ Shopify: মাসিক fee, server-এর ঝামেলা নেই, সবচেয়ে দ্রুত launch, staff-রা সহজে চালাতে পারে। product বিক্রি করলে আর সহজ চাইলে এটা।\n✅ WooCommerce: নিজের hosting, একবারের খরচ, যেকোনো feature সম্ভব। বড় catalogue বা custom order flow লাগলে এটা।\n\nআসল কথা দুটো: phone-এ দ্রুত load হয় কিনা, আর developer ছাড়া আপনি নিজে চালাতে পারেন কিনা।\n\nStore-এর plan করছেন? কী বিক্রি করবেন বলুন, আমি বলব কোনটা আপনার জন্য ঠিক। 🌐 mahiuddinahmed.com\n\n#Shopify #WooCommerce #ecommerce #Bangladesh",
+  "x": "Shopify or WooCommerce? I run one store on each.\n\nShopify: monthly fee, zero server work, fastest launch.\nWooCommerce: own hosting, one-time cost, any feature possible.\n\nWhat matters more: fast on a phone + the owner can run it alone.\n\n#Shopify #WooCommerce #Ecommerce",
+  "ig": "Shopify or WooCommerce? 🤔 I run one store on each, so here's the honest answer.\n\n🟢 Shopify: monthly fee, no server headaches, fastest to launch, easiest for staff.\n🟣 WooCommerce: own hosting, one-time cost, fully flexible, needs a bit of care.\n\nWhat matters more than the platform: does it load fast on a phone, and can YOU run it without a developer?\n\nPlanning a store? DM me what you sell and I'll tell you which I'd pick.\n\n#shopify #woocommerce #ecommerce #onlinestore #webdeveloper #dhaka #bangladesh #smallbusiness"
+ },
+ {
+  "id": "q02",
+  "date": "2026-10-10",
+  "layout": "existing",
+  "src": "p2.jpg",
+  "title": "I built my own e-commerce brand.",
+  "li": "I don't just build stores for clients. I run one myself.\n\nMYNAH MART is my own multi-category store in Bangladesh, built on Shopify. Running it every day taught me more than any tutorial:\n\n→ Many customers still want to order on WhatsApp, even with a cart right there\n→ Cash on Delivery orders need a fast confirmation step or they get cancelled\n→ Most visitors arrive from a Facebook ad on a phone with weak data, so every second of loading costs money\n→ Combo and bundle offers quietly raise the average order\n→ If the owner can't update stock and prices alone, the store stalls\n\nThat is the lens I bring to every client website: not 'does it look nice', but 'will it take orders tomorrow morning, and can you run it yourself?'\n\nIf you're planning a store, I'm happy to share what has worked for mine.\n\n#Ecommerce #Shopify #SmallBusiness #Bangladesh #WebDevelopment",
+  "fb": "আমি শুধু অন্যের জন্য store বানাই না, নিজেও একটা চালাই। 🛒\n\nMYNAH MART আমার নিজের brand, Shopify-তে বানানো। প্রতিদিন চালাতে গিয়ে যা শিখেছি:\n✅ cart থাকলেও অনেক customer WhatsApp-এ order করতে চান\n✅ COD order দ্রুত confirm না করলে বাতিল হয়\n✅ বেশিরভাগ visitor আসে Facebook ad থেকে, phone-এ, দুর্বল net-এ\n✅ combo offer চুপচাপ order-এর টাকা বাড়ায়\n✅ মালিক নিজে stock আর দাম বদলাতে না পারলে store থেমে যায়\n\nএই চোখ দিয়েই আমি প্রতিটা client-এর site বানাই। সুন্দর দেখানো না, order আসা আর নিজে চালানো, এটাই লক্ষ্য।\n\nStore-এর plan করছেন? message দিন। 🌐 mahiuddinahmed.com\n\n#mynahmart #ecommerce #shopify #Bangladesh",
+  "x": "I don't just build stores for clients. I run one myself.\n\nRunning MYNAH MART taught me:\n• customers still order on WhatsApp\n• slow COD confirmation = cancelled orders\n• most traffic is a phone on weak data\n• bundles raise order value\n\nThat's the lens for every site I build.",
+  "ig": "I don't just build stores for clients — I run one myself. 🛒\n\nMYNAH MART is my own e-commerce brand on Shopify. Running it taught me what store owners actually need:\n✅ A simple Cash on Delivery checkout\n✅ Fast pages on 4G phones\n✅ Combo & bundle offers that raise order value\n✅ A backend your staff can manage without a developer\n\nThat's what I bring to every website I build.\n\nPlanning a store? DM me.\n\n#mynahmart #ecommerce #shopify #onlinebusiness #dhaka #bangladesh #webdeveloper"
+ },
+ {
+  "id": "q03",
+  "date": "2026-10-11",
+  "layout": "list",
+  "pill": "Checklist",
+  "title": "What a clinic website actually needs",
+  "accent": "#34d399",
+  "rows": [
+   [
+    "Book an appointment in 3 taps",
+    "No forms with 12 fields. Name, phone, time."
+   ],
+   [
+    "Doctors with photos and schedules",
+    "People choose a doctor, not a building."
+   ],
+   [
+    "Click-to-call and WhatsApp",
+    "Most patients still want to talk first."
+   ],
+   [
+    "Location, hours, parking",
+    "On every page, not hidden in a footer."
+   ],
+   [
+    "Fast on a phone",
+    "A worried parent on 4G will not wait."
+   ],
+   [
+    "Google Business + reviews",
+    "That is where the search starts."
+   ]
+  ],
+  "foot": "Built for clinics, diagnostic centres and dental practices in Dhaka.",
+  "li": "What a clinic website actually needs (and what it doesn't).\n\nI looked at a lot of clinic and diagnostic-centre websites in Dhaka this week. Most of them are a brochure. A patient needs something simpler:\n\n1. Book an appointment in 3 taps: name, phone, time. Not a 12-field form.\n2. Doctors with photos and schedules. People choose a doctor, not a building.\n3. Click-to-call and WhatsApp on every page. Most patients still want to talk first.\n4. Location, hours and parking where you can see them.\n5. Fast on a phone. A worried parent on 4G will not wait 8 seconds.\n6. Google Business Profile with reviews, because that's where the search starts.\n\nNone of this is expensive. It is just deciding that the website's job is to get a patient through the door.\n\nIf you run a clinic, diagnostic centre or dental practice and your site doesn't do these six things, I'm happy to show you a sample homepage that does.\n\n#Healthcare #Clinic #WebDesign #Dhaka #SmallBusiness",
+  "fb": "একটা clinic-এর website-এ আসলে কী কী লাগে? 🏥\n\nএই সপ্তাহে ঢাকার অনেক clinic আর diagnostic centre-এর site দেখলাম। বেশিরভাগই শুধু brochure। রোগীর দরকার অনেক সহজ জিনিস:\n1️⃣ ৩ tap-এ appointment: নাম, ফোন, সময়\n2️⃣ ডাক্তারের ছবি আর schedule, মানুষ ডাক্তার বেছে নেয়, building না\n3️⃣ প্রতিটা page-এ call আর WhatsApp button\n4️⃣ ঠিকানা, সময়, parking সামনে\n5️⃣ phone-এ দ্রুত load\n6️⃣ Google Business profile আর review\n\nএগুলো খরচের ব্যাপার না, সিদ্ধান্তের ব্যাপার: website-এর কাজ রোগীকে দরজা পর্যন্ত আনা।\n\nআপনার clinic, diagnostic centre বা dental chamber-এর site এগুলো করে না? একটা free sample homepage বানিয়ে দেখাতে পারি। 🌐 mahiuddinahmed.com\n\n#clinic #healthcare #website #Dhaka",
+  "x": "What a clinic website actually needs:\n\n1. Book in 3 taps\n2. Doctors with photos + schedules\n3. Call & WhatsApp on every page\n4. Location, hours, parking up front\n5. Fast on a phone\n6. Google Business + reviews\n\nNot expensive. Just deciding the site's job is to bring a patient in.",
+  "ig": "What a clinic website actually needs 🏥\n\n1️⃣ Book an appointment in 3 taps\n2️⃣ Doctors with photos and schedules\n3️⃣ Call & WhatsApp on every page\n4️⃣ Location, hours, parking up front\n5️⃣ Fast on a phone\n6️⃣ Google Business profile + reviews\n\nNone of this is expensive. It's deciding that the website's job is to bring a patient through the door.\n\nRun a clinic or dental practice? DM me 'CLINIC' for a free sample homepage.\n\n#clinic #dental #healthcare #webdesign #dhaka #bangladesh #smallbusiness #webdeveloper"
+ },
+ {
+  "id": "q04",
+  "date": "2026-10-12",
+  "layout": "existing",
+  "src": "p1.jpg",
+  "title": "Your website should sell while you sleep.",
+  "li": "Your website should sell while you sleep.\n\nThat is the whole job. Not 'look modern'. Not 'have an About page'. Take the order at 1 a.m. when you are asleep and the customer is scrolling.\n\nWhat that takes, from running my own stores:\n→ A checkout that works with Cash on Delivery, bKash and cards\n→ Pages that load in under 3 seconds on a 4G phone\n→ One clear next step on every page: buy, book, or message\n→ Tracking, so you know which ad brought the sale\n→ An admin you can run yourself\n\nI build Shopify, WooCommerce and custom websites for businesses in Bangladesh, the UK and the US. I'm taking new projects now.\n\nIf you're planning one, send me a message and I'll start with a free sample homepage so you can see it before deciding anything.\n\n#WebDevelopment #Shopify #WooCommerce #Ecommerce #Freelance",
+  "fb": "আপনার website-এর কাজ একটাই: আপনি ঘুমালেও order নেওয়া। 🌙\n\n'modern দেখানো' না, 'About page থাকা' না। রাত ১টায় customer scroll করছে, site order নেবে।\n\nনিজের store চালিয়ে যা শিখেছি, সেটার জন্য লাগে:\n✔️ COD, bKash আর card-এ checkout\n✔️ 4G phone-এ ৩ সেকেন্ডের নিচে load\n✔️ প্রতিটা page-এ একটা পরিষ্কার next step: কিনুন, book করুন, message দিন\n✔️ tracking, যাতে জানেন কোন ad থেকে বিক্রি হলো\n✔️ এমন admin যেটা আপনি নিজে চালাতে পারেন\n\nআমি Shopify, WordPress আর custom website বানাই। এখন নতুন project নিচ্ছি। আগে free sample homepage বানিয়ে দেখাই, তারপর আপনি সিদ্ধান্ত নেবেন।\n📩 WhatsApp 01339-929296 · 🌐 mahiuddinahmed.com\n\n#webdeveloper #shopify #wordpress #ecommerce #Bangladesh",
+  "x": "Your website should sell while you sleep.\n\nThat means: COD/bKash/card checkout, <3s on a 4G phone, one clear next step per page, tracking, and an admin you can run yourself.\n\nTaking new projects. Free sample homepage first.",
+  "ig": "Your website should sell while you sleep. 🌙\n\nI'm Mahi — I build Shopify, WordPress & custom websites for businesses in Bangladesh, the UK & the US.\n\n✔️ Online stores with Cash on Delivery, bKash & Nagad\n✔️ Mobile-first, fast-loading pages\n✔️ Clear calls to action that turn visitors into orders\n\n📩 Taking new projects now — DM me or WhatsApp 01339-929296\n🌐 mahiuddinahmed.com\n\n#webdeveloper #shopifyexpert #wordpressdeveloper #ecommercewebsite #dhaka #bangladesh #freelancer"
+ },
+ {
+  "id": "q05",
+  "date": "2026-10-13",
+  "layout": "list",
+  "pill": "From my own store",
+  "title": "4 ways to cut Cash-on-Delivery cancellations",
+  "accent": "#f59e0b",
+  "rows": [
+   [
+    "Confirm within the hour",
+    "A quick call or WhatsApp while the intent is fresh."
+   ],
+   [
+    "Show the delivery charge before checkout",
+    "Surprise fees are the #1 reason people refuse at the door."
+   ],
+   [
+    "Give a delivery window, then keep it",
+    "'Tomorrow 2–6 pm' beats '3–5 working days'."
+   ],
+   [
+    "Send a tracking update",
+    "One message when it ships. Fewer 'where is my order' calls, fewer refusals."
+   ]
+  ],
+  "foot": "Learned the hard way at MYNAH MART.",
+  "li": "Cash on Delivery is how Bangladesh buys online. It is also where stores quietly lose money: the parcel comes back, and you've paid the courier twice.\n\nFour things that cut cancellations at my own store, MYNAH MART:\n\n1. Confirm within the hour. A quick call or WhatsApp while the intent is fresh.\n2. Show the delivery charge before checkout. Surprise fees are the number one reason people refuse at the door.\n3. Give a delivery window and keep it. 'Tomorrow 2–6 pm' beats '3–5 working days'.\n4. Send one tracking update when it ships. Fewer 'where is my order?' calls, fewer refusals.\n\nNone of these are design features. They are workflow features, and a good store build makes them automatic: delivery charge calculated by zone, confirmation message triggered on order, status updates sent without anyone typing.\n\nThis is the part of e-commerce most developers never see, because they don't run a store. I do, so I build it in.\n\n#Ecommerce #CashOnDelivery #Bangladesh #Shopify #WooCommerce",
+  "fb": "COD order বাতিল কমানোর ৪টা উপায় (নিজের store থেকে শেখা) 📦\n\nBangladesh-এ online কেনাকাটার বেশিরভাগই Cash on Delivery। আর এখানেই store চুপচাপ টাকা হারায়: parcel ফেরত আসে, courier-কে দুইবার টাকা দিতে হয়।\n\nMYNAH MART-এ যা কাজে লেগেছে:\n1️⃣ এক ঘণ্টার মধ্যে confirm: ছোট একটা call বা WhatsApp\n2️⃣ checkout-এর আগেই delivery charge দেখানো, দরজায় surprise fee-ই refuse-এর ১ নম্বর কারণ\n3️⃣ delivery-র সময় বলা আর সেটা রাখা: 'কাল ২–৬টা' > '৩–৫ কর্মদিবস'\n4️⃣ ship হলে একটা tracking message\n\nএগুলো design না, workflow। ভালো store build-এ এগুলো automatic হয়: zone অনুযায়ী delivery charge, order হলেই confirmation message, status update নিজে থেকে।\n\nআপনার store-এ COD cancel বেশি? message দিন, দেখিয়ে দেব কোথায় fix করা যায়। 🌐 mahiuddinahmed.com\n\n#COD #ecommerce #Bangladesh #onlinebusiness",
+  "x": "4 ways to cut Cash-on-Delivery cancellations (from running my own store):\n\n1. Confirm within the hour\n2. Show delivery charge before checkout\n3. Give a delivery window and keep it\n4. One tracking message when it ships\n\nWorkflow, not design. A good build makes them automatic.",
+  "ig": "4 ways to cut Cash-on-Delivery cancellations 📦 (learned at my own store, MYNAH MART)\n\n1️⃣ Confirm within the hour\n2️⃣ Show the delivery charge before checkout\n3️⃣ Give a delivery window and keep it\n4️⃣ Send one tracking update when it ships\n\nNone of these are design. They're workflow, and a good store build makes them automatic.\n\nCOD cancellations hurting your store? DM me 'COD'.\n\n#cashondelivery #ecommerce #bangladesh #shopify #woocommerce #onlinestore #dhaka #webdeveloper"
+ },
+ {
+  "id": "q06",
+  "date": "2026-10-14",
+  "layout": "list",
+  "pill": "Hire smart",
+  "title": "5 questions to ask before you hire a web developer",
+  "accent": "#a78bfa",
+  "rows": [
+   [
+    "Can I see something live, not just screenshots?",
+    "Open it on your phone and try to order."
+   ],
+   [
+    "Who owns the domain, hosting and admin?",
+    "You should. Always."
+   ],
+   [
+    "What happens after launch?",
+    "Support period, update cost, response time."
+   ],
+   [
+    "Is the price fixed, and what does it include?",
+    "Pages, products, payments, training. In writing."
+   ],
+   [
+    "Can I run it without you?",
+    "If the answer is no, keep looking."
+   ]
+  ],
+  "foot": "Ask me these. I like answering them.",
+  "li": "5 questions to ask before you hire a web developer (including me).\n\n1. Can I see something live, not just screenshots? Open it on your phone and try to place an order.\n2. Who owns the domain, hosting and admin login? You should. Always. I've seen businesses lose their own website because it was registered in a developer's name.\n3. What happens after launch? Support period, cost of updates, how fast they reply.\n4. Is the price fixed, and what exactly does it include? Pages, products, payments, training. Get it in writing.\n5. Can I run it without you? If the answer is no, keep looking.\n\nA good developer is happy to answer all five. If someone gets uncomfortable, that tells you something.\n\nMy answers, for the record: mynahmart.com and royaluseruk.com are live and take orders daily; everything is registered in the client's name; 30 days of support after launch; fixed price in writing before we start; and I walk you through the admin so you don't need me for a price change.\n\n#WebDevelopment #SmallBusiness #Freelance #Ecommerce #Dhaka",
+  "fb": "Web developer hire করার আগে এই ৫টা প্রশ্ন করুন (আমাকেও করবেন) 🧐\n\n1️⃣ live কিছু দেখাতে পারবেন, শুধু screenshot না? phone-এ খুলে order দিয়ে দেখুন।\n2️⃣ domain, hosting আর admin login কার নামে? আপনার নামে হতে হবে, সবসময়। developer-এর নামে থাকায় নিজের website হারানো business আমি দেখেছি।\n3️⃣ launch-এর পরে কী? support কতদিন, update-এর খরচ, কত দ্রুত reply।\n4️⃣ দাম কি fixed, আর তাতে কী কী আছে? page, product, payment, training, লিখিত।\n5️⃣ আপনাকে ছাড়া আমি কি চালাতে পারব? উত্তর 'না' হলে অন্য কাউকে খুঁজুন।\n\nভালো developer এই ৫টার উত্তর খুশি মনে দেয়।\n\nআমার উত্তর: mynahmart.com আর royaluseruk.com live, রোজ order নেয়; সব client-এর নামে register; launch-এর পর ৩০ দিন support; শুরুর আগে লিখিত fixed price; আর admin শিখিয়ে দিই যাতে দাম বদলাতে আমাকে লাগে না। 🌐 mahiuddinahmed.com\n\n#webdeveloper #website #Bangladesh #smallbusiness",
+  "x": "5 questions to ask before hiring a web developer:\n\n1. Can I see something live?\n2. Who owns the domain, hosting, admin? (You.)\n3. What happens after launch?\n4. Is the price fixed? What's included?\n5. Can I run it without you?\n\nIf they get uncomfortable, that's your answer.",
+  "ig": "5 questions to ask before you hire a web developer (yes, including me) 🧐\n\n1️⃣ Can I see something live, not just screenshots?\n2️⃣ Who owns the domain, hosting and admin? (You should.)\n3️⃣ What happens after launch?\n4️⃣ Is the price fixed, and what does it include?\n5️⃣ Can I run it without you?\n\nA good developer is happy to answer all five.\n\nSave this for when you're ready to build.\n\n#webdeveloper #website #smallbusiness #hiring #ecommerce #dhaka #bangladesh #freelancer"
+ },
+ {
+  "id": "q07",
+  "date": "2026-10-15",
+  "layout": "big",
+  "pill": "Small fix, big result",
+  "title": "The cheapest sales fix on any website:",
+  "big": "a WhatsApp button.",
+  "accent": "#25D366",
+  "sub": "Most customers in Bangladesh want to ask one question before they buy. If the only option is a contact form, they leave. One green button on every page keeps the conversation, and the sale, alive.",
+  "foot": "Takes 20 minutes to add. Ask me how.",
+  "li": "The cheapest sales fix I know for any website in Bangladesh: a WhatsApp button.\n\nMost customers here want to ask one question before they buy. 'Is this in stock?' 'Can you deliver to Uttara tomorrow?' 'Is the price for one or two?'\n\nIf the only option is a contact form, they leave. If there is a green WhatsApp button on every page, the conversation starts, and most of the time, the order follows.\n\nAt Royal User UK, WhatsApp ordering sits right next to the cart, and plenty of customers use it. At MYNAH MART the same. It is not a sign the website failed. It is how people here like to buy.\n\nTwo details that matter:\n→ Pre-fill the message with the product name, so the customer doesn't have to type\n→ Reply fast. A WhatsApp lead that waits an hour is usually gone\n\nIt takes about 20 minutes to add properly. If your site doesn't have one, that's the first thing I'd fix.\n\n#Ecommerce #WhatsApp #Bangladesh #SmallBusiness #WebDesign",
+  "fb": "যেকোনো website-এর সবচেয়ে সস্তা sales fix: একটা WhatsApp button। 💬\n\nBangladesh-এ বেশিরভাগ customer কেনার আগে একটা প্রশ্ন করতে চান। 'stock-এ আছে?' 'কাল Uttara-য় delivery হবে?' 'দামটা একটার না দুইটার?'\n\nশুধু contact form থাকলে তারা চলে যায়। প্রতিটা page-এ সবুজ WhatsApp button থাকলে কথা শুরু হয়, আর বেশিরভাগ সময় order-ও হয়।\n\nRoyal User UK আর MYNAH MART দুই জায়গাতেই cart-এর পাশে WhatsApp order আছে, আর অনেকে সেটাই ব্যবহার করেন। এটা website-এর ব্যর্থতা না, এখানকার মানুষ এভাবেই কিনতে পছন্দ করেন।\n\n২টা জিনিস খেয়াল রাখবেন:\n✔️ message-এ product-এর নাম আগে থেকে লেখা থাকুক\n✔️ দ্রুত reply দিন, এক ঘণ্টা অপেক্ষা করা lead সাধারণত চলে যায়\n\nযোগ করতে ২০ মিনিট লাগে। আপনার site-এ নেই? message দিন। 🌐 mahiuddinahmed.com\n\n#WhatsApp #ecommerce #Bangladesh #onlinebusiness",
+  "x": "Cheapest sales fix for any website in Bangladesh: a WhatsApp button on every page.\n\nCustomers want to ask one question before buying. A contact form loses them. A green button keeps the sale alive.\n\nPre-fill the product name. Reply fast. 20 minutes to add.",
+  "ig": "The cheapest sales fix on any website: a WhatsApp button 💬\n\nMost customers in Bangladesh want to ask ONE question before they buy. A contact form loses them. A green button on every page keeps the conversation (and the sale) alive.\n\n✔️ Pre-fill the product name\n✔️ Reply fast\n\nTakes 20 minutes to add. Your site doesn't have one? DM me.\n\n#whatsapp #ecommerce #smallbusiness #bangladesh #dhaka #webdesign #onlinestore #webdeveloper"
+ },
+ {
+  "id": "q08",
+  "date": "2026-10-16",
+  "layout": "portrait",
+  "pill": "Why I build the way I do",
+  "title": "When your own money is on the line, you learn fast what a website is for.",
+  "accent": "#f59e0b",
+  "sub": "I've built websites since 2022. In 2026 I launched my own store, MYNAH MART. Nothing teaches you faster than watching real orders come in, and real customers drop off, on a site you built.",
+  "foot": "Mahi Uddin Ahmed · Website & E-commerce Developer, Dhaka",
+  "li": "When your own money is on the line, you learn fast what a website is actually for.\n\nI've been building websites since 2022. In 2026 I launched my own store, MYNAH MART. Nothing taught me faster than watching real orders come in, and real customers drop off, on a site I built myself.\n\nThings I used to think mattered: the hero animation, the perfect font pairing, a long About page.\n\nThings that actually moved the numbers: a 3-second load on a cheap phone, the delivery charge shown before checkout, a WhatsApp button, a COD confirmation that goes out in minutes, and an admin simple enough that I could update 40 prices on a Friday night without touching code.\n\nThat's why every client site I build now starts from the owner's side of the counter, not the developer's. The question is never 'does it look good?' It's 'will it take orders tomorrow morning, and can you run it without me?'\n\nIf you're a founder planning a store or a business website, I'd be glad to talk.\n\n#Entrepreneurship #Ecommerce #WebDevelopment #Bangladesh #Shopify",
+  "fb": "নিজের টাকা যখন লাগে, তখন খুব দ্রুত শেখা যায় website আসলে কিসের জন্য। 💡\n\n২০২২ থেকে website বানাই। ২০২৬-এ নিজের store MYNAH MART চালু করলাম। নিজের বানানো site-এ আসল order আসা, আর আসল customer চলে যাওয়া দেখার চেয়ে বড় শিক্ষা আর নেই।\n\nআগে ভাবতাম যা জরুরি: hero animation, perfect font, লম্বা About page।\nযা আসলে সংখ্যা বদলালো: সস্তা phone-এ ৩ সেকেন্ডে load, checkout-এর আগে delivery charge, WhatsApp button, মিনিটের মধ্যে COD confirmation, আর এমন সহজ admin যে শুক্রবার রাতে ৪০টা দাম code ছাড়াই বদলাতে পারি।\n\nতাই এখন প্রতিটা client-এর site দোকানদারের দিক থেকে বানাই, developer-এর দিক থেকে না। প্রশ্ন 'সুন্দর দেখাচ্ছে?' না, প্রশ্ন 'কাল সকালে order নেবে? আপনি নিজে চালাতে পারবেন?'\n\nStore বা business website-এর plan করছেন? কথা বলতে পারি। 🌐 mahiuddinahmed.com\n\n#entrepreneur #ecommerce #webdeveloper #Bangladesh",
+  "x": "When your own money is on the line you learn fast what a website is for.\n\nWhat I thought mattered: hero animation, fonts, long About page.\nWhat moved the numbers: 3s load on a cheap phone, delivery charge before checkout, WhatsApp button, fast COD confirmation, simple admin.",
+  "ig": "When your own money is on the line, you learn fast what a website is for. 💡\n\nI've built websites since 2022. In 2026 I launched my own store, MYNAH MART. Watching real orders come in (and real customers drop off) taught me more than any course.\n\nWhat actually moved the numbers: fast load on a cheap phone, delivery charge before checkout, a WhatsApp button, quick COD confirmation, and an admin simple enough to run alone.\n\nThat's the lens I build every client site with.\n\n#entrepreneur #ecommerce #webdeveloper #shopify #dhaka #bangladesh #smallbusiness #founder"
+ },
+ {
+  "id": "q09",
+  "date": "2026-10-17",
+  "layout": "big",
+  "pill": "The 3-second rule",
+  "title": "If your site takes longer than 3 seconds on a phone,",
+  "big": "half your visitors are already gone.",
+  "accent": "#fb7185",
+  "sub": "Most of your customers are on a mid-range phone, on 4G, coming from a Facebook ad. They did not come to wait. Compress the images, cut the apps you don't use, lazy-load below the fold, and test on a real phone, not your laptop.",
+  "foot": "Want a free speed check of your site? Send me the link.",
+  "li": "If your website takes longer than 3 seconds to load on a phone, about half of your visitors are already gone.\n\nThat is not a design opinion. It is what happens to ad traffic: someone taps a Facebook ad on a mid-range phone on 4G, the page spins, they go back to scrolling. You paid for that click.\n\nThe usual causes I find on business and store websites:\n→ Product photos uploaded straight from the camera, 3–5 MB each\n→ Apps and plugins installed once and never removed, each loading its own scripts\n→ A slider with six giant images above the fold\n→ No lazy-loading, so the whole page loads before anything shows\n→ Tested only on the developer's laptop on office Wi-Fi\n\nThe fixes are not glamorous: compress and resize images, remove dead apps, defer non-critical scripts, lazy-load below the fold, and test on a real phone.\n\nAt MYNAH MART this is a monthly check, because most of our visitors arrive from ads on phones.\n\nWant a free speed check of your site? Send me the link and I'll tell you what's slowing it down.\n\n#WebPerformance #Ecommerce #Shopify #WordPress #SmallBusiness",
+  "fb": "phone-এ আপনার website ৩ সেকেন্ডের বেশি নিলে, অর্ধেক visitor এর মধ্যেই চলে গেছে। ⏱️\n\nএটা design-এর মতামত না, ad traffic-এর সাথে এটাই হয়: কেউ Facebook ad-এ tap করল, mid-range phone, 4G, page ঘুরছে, সে আবার scroll-এ ফিরে গেল। click-এর টাকা আপনার গেল।\n\nযে কারণগুলো বেশি পাই:\n❌ camera থেকে সরাসরি upload করা ৩–৫ MB-র ছবি\n❌ একবার install করে আর remove না করা app/plugin\n❌ ওপরে ৬টা বিশাল ছবির slider\n❌ lazy-load নেই\n❌ শুধু developer-এর laptop-এ, office Wi-Fi-তে test\n\nFix-গুলো সাধারণ: ছবি compress, মরা app বাদ, script defer, lazy-load, আর আসল phone-এ test।\n\nMYNAH MART-এ এটা প্রতি মাসের check, কারণ আমাদের বেশিরভাগ visitor ad থেকে phone-এ আসে।\n\nআপনার site-এর free speed check চান? link পাঠান, বলে দেব কী slow করছে। 🌐 mahiuddinahmed.com\n\n#websitespeed #ecommerce #Bangladesh #smallbusiness",
+  "x": "If your site takes >3 seconds on a phone, about half your visitors are gone. You paid for that ad click.\n\nUsual causes: 5 MB photos, dead plugins, giant sliders, no lazy-load, tested only on a laptop.\n\nFree speed check: send me your link.",
+  "ig": "If your website takes longer than 3 seconds on a phone, half your visitors are already gone. ⏱️\n\nUsual causes:\n❌ 5 MB photos straight from the camera\n❌ Plugins installed and never removed\n❌ A giant slider above the fold\n❌ No lazy-loading\n❌ Tested only on a laptop\n\nThe fixes aren't glamorous, but they're where the money is.\n\nWant a free speed check? DM me your link.\n\n#websitespeed #pagespeed #ecommerce #shopify #wordpress #dhaka #bangladesh #webdeveloper"
+ },
+ {
+  "id": "q10",
+  "date": "2026-10-18",
+  "layout": "list",
+  "pill": "How it works",
+  "title": "See your new homepage before you pay anything",
+  "accent": "#34d399",
+  "rows": [
+   [
+    "1. A 10-minute call",
+    "You tell me about the business. I listen. No pitch, no price yet."
+   ],
+   [
+    "2. A free sample homepage in 48 hours",
+    "A real design for your business, so you decide with your eyes."
+   ],
+   [
+    "3. A one-page plan with a fixed price",
+    "Pages, features, timeline, milestones. In writing."
+   ],
+   [
+    "4. Build, launch, 30 days of support",
+    "And a walkthrough so you can run it yourself."
+   ]
+  ],
+  "foot": "Taking new projects now. WhatsApp 01339-929296 · mahiuddinahmed.com",
+  "li": "Here is how I work with new clients, so there are no surprises.\n\n1. A 10-minute call. You tell me about the business, how customers find you now, and what the website has to do. I listen. No pitch, no price yet.\n\n2. A free sample homepage within 48 hours. A real design for your business, not a template screenshot, so you decide with your eyes instead of from promises. If you don't like it, you owe nothing.\n\n3. A one-page plan with a fixed price. Platform, page list, features, timeline, milestones, and what I need from you. In writing, before any work starts.\n\n4. Build, launch, and 30 days of support. Progress every week, tested on real phones, and a walkthrough of your admin so you can run it without me.\n\nI build Shopify, WooCommerce, WordPress and custom websites, and I run my own stores, so I know what has to work after launch.\n\nI'm taking new projects now. If you're planning a store or a business website, send me a message and we'll start with the call.\n\n#WebDevelopment #Shopify #WooCommerce #SmallBusiness #Freelance",
+  "fb": "কোনো টাকা দেওয়ার আগেই আপনার নতুন homepage দেখুন। ✅\n\nনতুন client-দের সাথে আমি এভাবে কাজ করি, যাতে কোনো surprise না থাকে:\n1️⃣ ১০ মিনিটের call: আপনি business-এর কথা বলবেন, আমি শুনব। pitch না, দাম না।\n2️⃣ ৪৮ ঘণ্টায় free sample homepage: আপনার business-এর জন্য আসল design, template-এর screenshot না। পছন্দ না হলে কিছু দিতে হবে না।\n3️⃣ এক পাতার plan আর fixed price: page, feature, সময়, milestone, আপনার কাছ থেকে কী লাগবে, সব লিখিত।\n4️⃣ build, launch, আর ৩০ দিন support: প্রতি সপ্তাহে progress, আসল phone-এ test, আর admin শিখিয়ে দেওয়া।\n\nShopify, WooCommerce, WordPress আর custom website বানাই, নিজের store-ও চালাই।\n\nএখন নতুন project নিচ্ছি। store বা business website-এর plan থাকলে message দিন।\n📩 WhatsApp 01339-929296 · 🌐 mahiuddinahmed.com\n\n#webdeveloper #website #ecommerce #Dhaka #Bangladesh",
+  "x": "How I work with new clients:\n\n1. 10-min call. I listen.\n2. Free sample homepage in 48h. You decide with your eyes.\n3. One-page plan, fixed price, in writing.\n4. Build, launch, 30 days support.\n\nTaking new projects now. mahiuddinahmed.com",
+  "ig": "See your new homepage before you pay anything ✅\n\nHow I work:\n1️⃣ A 10-minute call. You talk, I listen.\n2️⃣ A free sample homepage in 48 hours. Decide with your eyes.\n3️⃣ A one-page plan with a fixed price. In writing.\n4️⃣ Build, launch, 30 days of support.\n\nTaking new projects now. DM me or WhatsApp 01339-929296.\n🌐 mahiuddinahmed.com\n\n#webdeveloper #shopify #woocommerce #wordpress #ecommerce #dhaka #bangladesh #freelancer #smallbusiness"
+ }
 ]
