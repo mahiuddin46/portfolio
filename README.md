@@ -1,6 +1,6 @@
 # mahiuddinahmed.com
 
-Personal site for Mahi Uddin Ahmed — digital builder, e-commerce, growth.
+Personal site for Mahi Uddin Ahmed — website & e-commerce developer, Dhaka.
 
 Hand-written static site. No framework, no build step, no dependencies.
 Three files do the work: `index.html`, `assets/css/site.css`, `assets/js/site.js`.
