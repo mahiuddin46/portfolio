@@ -1,0 +1,15 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>post viewer</title>
+<style>
+html,body{margin:0;height:100%;background:#060b18;overflow:hidden}
+img{position:fixed;inset:0;width:100%;height:100%;object-fit:contain;display:block}
+</style></head><body>
+<img id="i" alt="">
+<script>
+var q=new URLSearchParams(location.search),n=q.get('i')||'q01-land';
+var el=document.getElementById('i');el.src=n+(n.indexOf('.')>0?'':'.png');
+el.onerror=function(){if(el.src.slice(-4)=='.png')el.src=n+'.jpg'};
+if(q.get('fit')==='cover')el.style.objectFit='cover';
+</script>
+</body></html>

@@ -710,6 +710,7 @@ a{color:inherit;text-decoration:none}
 }
 .nav__cta:hover{background:var(--amber);color:var(--ink)}
 @media (max-width:640px){.nav__links{display:none}.nav__cta{padding:8px 12px;font-size:10px;letter-spacing:.1em}}
+@media (max-width:1200px){.nav__status{display:none}}
 
 .hero__pitch{
   display:block;margin-top:12px;max-width:44ch;
