@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>SKETCH Interior — Sample Homepage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1a1a17;--ink2:#3b3a35;--mute:#6f6c63;--paper:#f6f3ec;--card:#fffdf8;--line:#e3ddcf;--brass:#a8823f;--brass2:#8a6a31;--dark:#151512}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.serif{font-family:Fraunces,Georgia,serif;font-weight:400;letter-spacing:-.01em}
+.top{background:var(--dark);color:#d9d3c4;font-size:12.5px;text-align:center;padding:8px 16px}
+.top b{color:#fff}
+header{position:sticky;top:0;z-index:20;background:rgba(246,243,236,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
+.logo{font-family:Fraunces,serif;font-size:22px;letter-spacing:.18em;font-weight:600}
+.logo small{display:block;font-family:Inter;font-size:10px;letter-spacing:.32em;color:var(--mute);font-weight:500;margin-top:-2px}
+.links{display:flex;gap:30px;font-size:14px;color:var(--ink2)}
+.links a:hover{color:var(--brass2)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:2px;font-size:14px;font-weight:600;transition:.2s}
+.btn-dark{background:var(--ink);color:#fff}.btn-dark:hover{background:var(--brass2)}
+.btn-line{border:1px solid var(--ink);color:var(--ink)}.btn-line:hover{background:var(--ink);color:#fff}
+@media(max-width:860px){.links{display:none}}
+.hero{padding:64px 0 40px}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+.eyebrow{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--brass2);font-weight:600}
+.hero h1{font-size:clamp(38px,5.2vw,64px);line-height:1.05;margin:18px 0 22px}
+.hero h1 em{font-style:italic;color:var(--brass2)}
+.hero p{font-size:17px;color:var(--ink2);max-width:520px}
+.hero .cta{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
+.facts{display:flex;gap:36px;margin-top:40px;padding-top:24px;border-top:1px solid var(--line);flex-wrap:wrap}
+.facts div{font-size:13px;color:var(--mute)}
+.facts b{display:block;font-family:Fraunces,serif;font-weight:400;font-size:26px;color:var(--ink)}
+.hero-img{position:relative}
+.hero-img img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:2px}
+.hero-img .tag{position:absolute;left:-22px;bottom:28px;background:var(--card);padding:16px 18px;box-shadow:0 18px 40px rgba(0,0,0,.12);font-size:13px;max-width:230px}
+.hero-img .tag b{display:block;font-size:14px}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:36px}.hero-img .tag{left:12px}}
+section{padding:84px 0}
+.head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:40px;flex-wrap:wrap}
+.head h2{font-size:clamp(30px,3.6vw,44px);line-height:1.1;max-width:620px}
+.head p{color:var(--mute);max-width:380px;font-size:15px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.svc{padding:30px 28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--card)}
+.svc .n{font-family:Fraunces,serif;color:var(--brass);font-size:15px}
+.svc h3{font-family:Fraunces,serif;font-weight:400;font-size:22px;margin:14px 0 8px}
+.svc p{font-size:14.5px;color:var(--mute)}
+@media(max-width:860px){.services{grid-template-columns:1fr 1fr}}@media(max-width:560px){.services{grid-template-columns:1fr}}
+.work{background:var(--dark);color:#efe9dc}
+.work .head p{color:#a8a294}
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.p{position:relative;overflow:hidden;border-radius:2px;background:#222}
+.p img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.p:hover img{transform:scale(1.04)}
+.p .cap{position:absolute;inset:auto 0 0 0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(0,0,0,.75));font-size:14px}
+.p .cap b{display:block;font-family:Fraunces,serif;font-weight:400;font-size:19px;color:#fff}
+.p1{grid-column:span 4;aspect-ratio:16/10}.p2{grid-column:span 2}.p3,.p4,.p5{grid-column:span 2;aspect-ratio:4/3}
+@media(max-width:760px){.grid{grid-template-columns:1fr 1fr}.p1,.p2,.p3,.p4,.p5{grid-column:span 2;aspect-ratio:4/3}}
+.clients{padding:46px 0;border-bottom:1px solid var(--line)}
+.clients .row{display:flex;flex-wrap:wrap;gap:12px 34px;justify-content:center;font-family:Fraunces,serif;font-size:19px;color:var(--ink2)}
+.clients .lbl{text-align:center;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--mute);margin-bottom:18px}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;counter-reset:s}
+.step{border-top:2px solid var(--ink);padding-top:18px}
+.step h4{font-family:Fraunces,serif;font-weight:400;font-size:21px;margin-bottom:6px}
+.step p{font-size:14.5px;color:var(--mute)}
+@media(max-width:860px){.process{grid-template-columns:1fr 1fr}}@media(max-width:520px){.process{grid-template-columns:1fr}}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.about img{aspect-ratio:5/4;object-fit:cover;width:100%;border-radius:2px}
+.about p{color:var(--ink2);margin-bottom:14px}
+@media(max-width:860px){.about{grid-template-columns:1fr}}
+.contact{background:var(--card);border-top:1px solid var(--line)}
+.cbox{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:start}
+.cbox h2{font-size:clamp(30px,3.6vw,44px);line-height:1.1;margin-bottom:16px}
+.info div{padding:16px 0;border-bottom:1px solid var(--line);font-size:15px}
+.info small{display:block;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
+@media(max-width:860px){.cbox{grid-template-columns:1fr}}
+footer{background:var(--dark);color:#a8a294;font-size:13px;padding:28px 0}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.wa{position:fixed;right:18px;bottom:18px;z-index:30;background:#25d366;color:#06331d;font-weight:600;font-size:14px;padding:13px 18px;border-radius:999px;box-shadow:0 12px 28px rgba(0,0,0,.2)}
+</style>
+</head>
+<body>
+<div class="top"><b>Sample homepage</b> — a free redesign concept for SKETCH Interior by Mahi Uddin Ahmed. Photos and project names are from sketchinterior.com.</div>
+<header><div class="wrap nav">
+  <a class="logo" href="#">SKETCH<small>INTERIOR · SINCE 2000</small></a>
+  <nav class="links"><a href="#services">Services</a><a href="#work">Projects</a><a href="#process">Process</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <a class="btn btn-dark" href="https://wa.me/8801755699396">Book a consultation</a>
+</div></header>
+
+<section class="hero" style="padding-top:64px"><div class="wrap">
+  <div>
+    <div class="eyebrow">Interior design · Fit-out · Custom furniture</div>
+    <h1 class="serif">Workspaces that give your business a <em>professional edge.</em></h1>
+    <p>From bank branches to corporate offices, SKETCH designs, builds and furnishes complete interiors, managed from first sketch to handover and delivered on time.</p>
+    <div class="cta"><a class="btn btn-dark" href="#work">See our projects</a><a class="btn btn-line" href="https://wa.me/8801755699396">WhatsApp us</a></div>
+    <div class="facts">
+      <div><b>Since 2000</b>Designing interiors in Dhaka</div>
+      <div><b>Start to finish</b>Design, build &amp; furniture</div>
+      <div><b>3D first</b>See it before it's built</div>
+    </div>
+  </div>
+  <div class="hero-img">
+    <img src="https://sketchinterior.com/assets/img/portfolio/ebl-banani/1.jpg" alt="Eastern Bank Limited, Banani interior by SKETCH">
+    <div class="tag"><b>Eastern Bank Limited</b>Banani branch interior</div>
+  </div>
+</div></section>
+
+<div class="clients"><div class="wrap">
+  <div class="lbl">Trusted by</div>
+  <div class="row"><span>Eastern Bank Limited</span><span>The City Bank</span><span>SCB</span><span>Thai Nation</span><span>Standard Bank</span><span>Bank Al Arafah</span><span>EBL Securities</span><span>GAP</span><span>Asiatec</span></div>
+</div></div>
+
+<section id="services"><div class="wrap">
+  <div class="head"><h2 class="serif">Everything your space needs, under one roof.</h2><p>One team for design, engineering, fit-out and furniture means fewer handovers, clearer costs and a faster finish.</p></div>
+  <div class="services">
+    <div class="svc"><span class="n">01</span><h3>Interior design</h3><p>Layouts, lighting and colour planned around how your team and customers actually use the space.</p></div>
+    <div class="svc"><span class="n">02</span><h3>Interior &amp; exterior renovation</h3><p>Refresh branches, offices and showrooms with minimal disruption to daily business.</p></div>
+    <div class="svc"><span class="n">03</span><h3>3D visualization</h3><p>Photo-real 3D views so you can approve every detail before work starts on site.</p></div>
+    <div class="svc"><span class="n">04</span><h3>Architectural &amp; engineering</h3><p>Technical drawings and engineering support that keep the build safe and on spec.</p></div>
+    <div class="svc"><span class="n">05</span><h3>Custom furniture &amp; lighting</h3><p>Furniture and lighting fixtures made to measure for your space and brand.</p></div>
+    <div class="svc"><span class="n">06</span><h3>Consultancy</h3><p>Expert advice on space planning, materials and budget before you commit.</p></div>
+  </div>
+</div></section>
+
+<section class="work" id="work"><div class="wrap">
+  <div class="head"><h2 class="serif" style="color:#fff">Featured projects</h2><p>A few of the bank branches and corporate spaces we have delivered across Bangladesh.</p></div>
+  <div class="grid">
+    <a class="p p1" href="#"><img src="https://sketchinterior.com/assets/img/portfolio/scb-uttara/cover.jpg" alt="SCB Uttara Branch"><div class="cap"><b>SCB Uttara Branch</b>Branch interior</div></a>
+    <a class="p p2" href="#"><img src="https://sketchinterior.com/assets/img/portfolio/thai-nation/cover.jpg" alt="Thai Nation"><div class="cap"><b>Thai Nation</b>Interior project</div></a>
+    <a class="p p3" href="#"><img src="https://sketchinterior.com/assets/img/portfolio/asiatec/1.jpg" alt="Asiatec"><div class="cap"><b>Asiatec</b>Interior project</div></a>
+    <a class="p p4" href="#"><img src="https://sketchinterior.com/assets/img/portfolio/ebl-security/cover.jpg" alt="EBL Securities"><div class="cap"><b>EBL Securities</b>Interior project</div></a>
+    <a class="p p5" href="#"><img src="https://sketchinterior.com/assets/img/portfolio/gap/cover.jpg" alt="GAP"><div class="cap"><b>GAP</b>Interior project</div></a>
+  </div>
+</div></section>
+
+<section id="process"><div class="wrap">
+  <div class="head"><h2 class="serif">How we work</h2><p>A clear process so you always know what happens next, and what it costs.</p></div>
+  <div class="process">
+    <div class="step"><h4>1. Consultation</h4><p>We visit the site, understand your goals, timeline and budget.</p></div>
+    <div class="step"><h4>2. Design &amp; 3D</h4><p>Layout, materials and 3D views for your approval.</p></div>
+    <div class="step"><h4>3. Build &amp; furnish</h4><p>Our team handles fit-out, custom furniture and lighting.</p></div>
+    <div class="step"><h4>4. Handover</h4><p>A finished, ready-to-use space, delivered on time.</p></div>
+  </div>
+</div></section>
+
+<section id="about" style="padding-top:20px"><div class="wrap about">
+  <img src="https://sketchinterior.com/assets/img/about.jpg" alt="SKETCH Interior studio work">
+  <div>
+    <div class="eyebrow">About SKETCH</div>
+    <h2 class="serif" style="font-size:clamp(30px,3.6vw,42px);line-height:1.1;margin:14px 0 18px">Sketching your dream since 2000.</h2>
+    <p>SKETCH Interior offers a complete solution for interior spaces, working on big and small projects for local, international and multinational companies.</p>
+    <p>Every design is customised to the project, balancing lighting, colour and function with comfort and aesthetic beauty, and delivered by professionals who manage the work from start to finish.</p>
+  </div>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap cbox">
+  <div>
+    <div class="eyebrow">Start a project</div>
+    <h2 class="serif" style="margin-top:14px">Planning a new branch, office or showroom?</h2>
+    <p style="color:var(--ink2);max-width:480px;margin-bottom:26px">Send us your floor plan or a few photos of the space. We'll reply with ideas and next steps.</p>
+    <a class="btn btn-dark" href="https://wa.me/8801755699396">Message us on WhatsApp</a>
+  </div>
+  <div class="info">
+    <div><small>Office</small>House #170, Road #03, Mohakhali New DOHS, Dhaka</div>
+    <div><small>Phone / WhatsApp</small>01755-699396</div>
+    <div><small>Email</small>info@sketchinterior.com</div>
+  </div>
+</div></section>
+
+<footer><div class="wrap"><span>© SKETCH Interior · Mohakhali New DOHS, Dhaka</span><span>Sample design by Mahi Uddin Ahmed · mahiuddinahmed.com</span></div></footer>
+<a class="wa" href="https://wa.me/8801755699396">💬 WhatsApp</a>
+</body>
+</html>
