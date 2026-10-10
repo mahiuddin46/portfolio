@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Makul — Small MOQ Coloured Denim | Sample page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14181f;--ink2:#3a4250;--mute:#6b7383;--bg:#f4f2ee;--card:#fff;--line:#e3e0d9;--denim:#1f3a5f;--denim2:#2c5282;--indigo:#16263d;--accent:#d9643a;--wa:#25d366}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 22px}
+h1,h2,h3,.disp{font-family:Archivo,Inter,sans-serif;letter-spacing:-.02em}
+.top{background:var(--indigo);color:#c9d3e3;font-size:12.5px;text-align:center;padding:8px 14px}
+.top b{color:#fff}
+header{position:sticky;top:0;z-index:20;background:rgba(244,242,238,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:14px}
+.logo{display:flex;align-items:center;gap:10px;font-family:Archivo;font-weight:800;font-size:20px}
+.logo .mk{width:38px;height:38px;border-radius:8px;background:var(--denim);color:#fff;display:grid;place-items:center;font-size:18px}
+.logo small{display:block;font-family:Inter;font-weight:500;font-size:11px;color:var(--mute);letter-spacing:.02em}
+.links{display:flex;gap:26px;font-size:14px;color:var(--ink2)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:8px;font-weight:600;font-size:14px}
+.btn-wa{background:var(--wa);color:#063b21}.btn-dark{background:var(--ink);color:#fff}.btn-line{border:1.5px solid var(--ink)}
+@media(max-width:820px){.links{display:none}}
+.hero{background:linear-gradient(135deg,var(--indigo),var(--denim) 60%,var(--denim2));color:#fff;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.035) 0 2px,transparent 2px 7px);pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center;padding-top:72px;padding-bottom:72px}
+.tag{display:inline-block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:6px 12px;border-radius:99px}
+.hero h1{font-size:clamp(36px,5vw,60px);line-height:1.04;margin:18px 0}
+.hero h1 span{color:#ffb38f}
+.hero p{font-size:17px;color:#d6deea;max-width:540px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.hero .btn-line{border-color:rgba(255,255,255,.6);color:#fff}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:36px;max-width:540px}
+.kpis div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:14px}
+.kpis b{display:block;font-family:Archivo;font-size:22px}
+.kpis span{font-size:12.5px;color:#c9d3e3}
+.qc{background:rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.18);border-radius:14px;aspect-ratio:4/5;display:flex;flex-direction:column;justify-content:flex-end;padding:22px;position:relative}
+.qc .play{position:absolute;top:50%;left:50%;transform:translate(-50%,-60%);width:72px;height:72px;border-radius:50%;background:#fff;display:grid;place-items:center;color:var(--denim);font-size:26px;box-shadow:0 12px 30px rgba(0,0,0,.3)}
+.qc b{font-family:Archivo;font-size:18px}.qc small{color:#c9d3e3}
+@media(max-width:880px){.hero .wrap{grid-template-columns:1fr}.qc{aspect-ratio:16/10}}
+section{padding:78px 0}
+.head{max-width:640px;margin-bottom:36px}
+.head .eb{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.head h2{font-size:clamp(28px,3.4vw,40px);line-height:1.1;margin-top:10px}
+.head p{color:var(--mute);margin-top:10px}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.prod{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.prod .ph{aspect-ratio:4/5;background:linear-gradient(160deg,#3b5b86,#1f3a5f);position:relative}
+.prod .ph.c2{background:linear-gradient(160deg,#c9774d,#8f4a2c)}.prod .ph.c3{background:linear-gradient(160deg,#7d8f6a,#4a5a3c)}.prod .ph.c4{background:linear-gradient(160deg,#cbb7d8,#7b5f8f)}
+.prod .ph:after{content:"Photo coming";position:absolute;bottom:10px;left:10px;font-size:11px;color:rgba(255,255,255,.75);letter-spacing:.06em}
+.prod .tx{padding:14px 16px}
+.prod h3{font-size:17px}.prod p{font-size:13.5px;color:var(--mute)}
+@media(max-width:860px){.products{grid-template-columns:1fr 1fr}}
+.extra{margin-top:18px;background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:16px 18px;font-size:14.5px;color:var(--ink2)}
+.process{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;counter-reset:s}
+.st{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 18px;position:relative}
+.st:before{counter-increment:s;content:counter(s);font-family:Archivo;font-weight:800;font-size:30px;color:var(--denim2);opacity:.25;position:absolute;top:10px;right:14px}
+.st h3{font-size:16.5px;margin-bottom:6px}.st p{font-size:13.5px;color:var(--mute)}
+.st.hl{background:var(--denim);color:#fff;border-color:var(--denim)}.st.hl p{color:#d6deea}.st.hl:before{color:#fff}
+@media(max-width:900px){.process{grid-template-columns:1fr 1fr}}@media(max-width:520px){.process{grid-template-columns:1fr}}
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.why div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px}
+.why h3{font-size:18px;margin-bottom:6px}.why p{font-size:14.5px;color:var(--mute)}
+@media(max-width:800px){.why{grid-template-columns:1fr}}
+.ship{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.ship span{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:8px 16px;font-weight:600;font-size:14px}
+.inq{background:var(--indigo);color:#fff}
+.inq .wrap{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+.inq h2{font-size:clamp(28px,3.4vw,40px);line-height:1.1}
+.inq p{color:#c9d3e3;margin-top:12px}
+form{background:#fff;color:var(--ink);border-radius:14px;padding:22px;display:grid;gap:12px}
+label{font-size:13px;font-weight:600;color:var(--ink2)}
+input,select,textarea{width:100%;margin-top:5px;padding:11px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:14px;background:#fbfaf8}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:820px){.inq .wrap{grid-template-columns:1fr}.row2{grid-template-columns:1fr}}
+footer{padding:26px 0;font-size:13px;color:var(--mute)}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.fab{position:fixed;right:16px;bottom:16px;z-index:30;background:var(--wa);color:#063b21;font-weight:700;padding:13px 18px;border-radius:99px;box-shadow:0 12px 28px rgba(0,0,0,.22)}
+</style>
+</head>
+<body>
+<div class="top"><b>Sample page</b> — free concept by Mahi Uddin Ahmed. Real QC videos, product photos and logo will replace the placeholders.</div>
+<header><div class="wrap nav">
+  <a class="logo" href="#"><span class="mk">M</span><span>Makul<small>Small MOQ Coloured Denim · Birganj, Dinajpur</small></span></a>
+  <nav class="links"><a href="#products">Products</a><a href="#process">Process</a><a href="#why">Why small batch</a><a href="#inquiry">Get a quote</a></nav>
+  <a class="btn btn-wa" href="#inquiry">💬 WhatsApp</a>
+</div></header>
+
+<section class="hero" style="padding:0"><div class="wrap">
+  <div>
+    <span class="tag">Sourcing partner · Bangladesh</span>
+    <h1 class="disp">100–300 pcs.<br><span>Real video QC.</span></h1>
+    <p>Coloured and rhinestone denim in small batches for growing brands in the UK, US and EU. I source the fabric, follow your sample through production and send you real QC video from the iron table before anything ships.</p>
+    <div class="cta"><a class="btn btn-wa" href="#inquiry">💬 Chat on WhatsApp</a><a class="btn btn-line" href="#process">See the process</a></div>
+    <div class="kpis">
+      <div><b>100–300</b><span>pcs MOQ per colour</span></div>
+      <div><b>5 steps</b><span>fabric to shipping</span></div>
+      <div><b>UK · US · EU</b><span>shipping</span></div>
+    </div>
+  </div>
+  <div class="qc"><div class="play">▶</div><b>Real QC video</b><small>Your own order, checked piece by piece on the iron table. Video will be added here.</small></div>
+</div></section>
+
+<section id="products"><div class="wrap">
+  <div class="head"><div class="eb">Core products</div><h2>Coloured denim, made in small batches</h2><p>Pick a style, send your tech pack or reference, and order from 100 pieces per colour.</p></div>
+  <div class="products">
+    <div class="prod"><div class="ph"></div><div class="tx"><h3>Barrel Jeans</h3><p>Coloured &amp; rhinestone</p></div></div>
+    <div class="prod"><div class="ph c2"></div><div class="tx"><h3>Mom Jeans</h3><p>Coloured &amp; rhinestone</p></div></div>
+    <div class="prod"><div class="ph c3"></div><div class="tx"><h3>Wide-leg Jeans</h3><p>Coloured &amp; rhinestone</p></div></div>
+    <div class="prod"><div class="ph c4"></div><div class="tx"><h3>Custom colour</h3><p>Your shade, your trims</p></div></div>
+  </div>
+  <div class="extra"><b>Need more than denim?</b> T-shirts and hoodies can be arranged through my partner network, with the same QC process.</div>
+</div></section>
+
+<section id="process" style="background:#ebe8e2"><div class="wrap">
+  <div class="head"><div class="eb">How it works</div><h2>Five steps, and you see every one</h2><p>No guessing. You get updates at each step and real video before shipping.</p></div>
+  <div class="process">
+    <div class="st"><h3>Fabric</h3><p>Fabric and colour sourced and confirmed with you.</p></div>
+    <div class="st"><h3>Sampling</h3><p>A sample made to your spec for approval.</p></div>
+    <div class="st"><h3>Production</h3><p>Small-batch production, followed in person.</p></div>
+    <div class="st hl"><h3>Real QC video</h3><p>Pieces checked on the iron table and filmed for you.</p></div>
+    <div class="st"><h3>Shipping</h3><p>Packed and shipped to the UK, US or EU.</p></div>
+  </div>
+</div></section>
+
+<section id="why"><div class="wrap">
+  <div class="head"><div class="eb">Why work with me</div><h2>Built for small brands that big factories ignore</h2></div>
+  <div class="why">
+    <div><h3>Small MOQ</h3><p>Start with 100–300 pieces per colour instead of thousands, so you can test styles without tying up cash.</p></div>
+    <div><h3>Real video, not stock photos</h3><p>You see your own goods on the QC table before anything ships.</p></div>
+    <div><h3>One person, start to finish</h3><p>You talk to the same person from fabric to shipping. No account managers, no getting lost.</p></div>
+  </div>
+  <div class="ship"><span>🇬🇧 United Kingdom</span><span>🇺🇸 United States</span><span>🇪🇺 European Union</span></div>
+</div></section>
+
+<section class="inq" id="inquiry"><div class="wrap">
+  <div>
+    <div class="head" style="margin:0"><div class="eb" style="color:#ffb38f">Get a quote</div></div>
+    <h2>Tell me what you want to make</h2>
+    <p>Share the style, quantity and timeline. I'll reply on WhatsApp with fabric options, sampling time and a price.</p>
+    <p style="margin-top:22px;color:#fff"><b>Makul</b><br>Birganj, Dinajpur, Rangpur Division, Bangladesh</p>
+  </div>
+  <form onsubmit="event.preventDefault();alert('Sample form: on the real site this goes straight to WhatsApp/email.')">
+    <div class="row2"><label>Your name<input placeholder="Name"></label><label>Brand / company<input placeholder="Brand"></label></div>
+    <div class="row2"><label>Product<select><option>Barrel Jeans</option><option>Mom Jeans</option><option>Wide-leg Jeans</option><option>T-shirt / Hoodie</option><option>Other</option></select></label><label>Quantity (pcs)<input placeholder="e.g. 200"></label></div>
+    <div class="row2"><label>Target price (per pc)<input placeholder="USD / GBP / EUR"></label><label>Delivery to<select><option>United Kingdom</option><option>United States</option><option>European Union</option></select></label></div>
+    <label>Timeline &amp; details<textarea rows="3" placeholder="Colours, wash, rhinestone, deadline…"></textarea></label>
+    <button class="btn btn-dark" style="justify-content:center;border:0;cursor:pointer">Send inquiry</button>
+  </form>
+</div></section>
+
+<footer><div class="wrap"><span>© Makul · Small MOQ Coloured Denim · Birganj, Dinajpur, Bangladesh</span><span>Sample design by Mahi Uddin Ahmed · mahiuddinahmed.com</span></div></footer>
+<a class="fab" href="#inquiry">💬 WhatsApp</a>
+</body>
+</html>
