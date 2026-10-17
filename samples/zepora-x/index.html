@@ -1,0 +1,144 @@
+<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Zepora X — Sample Homepage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--wine:#8c1d2c;--wine2:#6e1421;--green:#1f4d33;--cream:#fbf6f0;--ink:#2a1a1d;--mut:#7a6a6c;--line:#eadfd6}
+*{box-sizing:border-box}a{text-decoration:none}body{margin:0;font-family:'Hind Siliguri',system-ui,sans-serif;background:var(--cream);color:var(--ink)}
+img{display:block;width:100%;height:100%;object-fit:cover}
+.demo{background:var(--green);color:#e9f3ec;text-align:center;font-size:13px;padding:7px 12px}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.top{max-width:1200px;margin:auto;display:flex;align-items:center;gap:28px;padding:14px 20px}
+.logo{font-family:Fraunces,serif;font-size:30px;font-weight:600;letter-spacing:-.5px;color:#2d2d2d}.logo b{color:var(--wine);font-weight:800}
+nav{display:flex;gap:22px;font-size:15px;color:#4b3a3d;flex:1}
+.ic{display:flex;gap:10px;align-items:center}
+.wa{background:#1fa855;color:#fff;border-radius:999px;padding:9px 16px;font-weight:600;font-size:14px;white-space:nowrap}
+.cart{border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;white-space:nowrap}
+.hero{max-width:1200px;margin:28px auto 0;padding:0 20px;display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}
+.kick{display:inline-block;background:#f3e3e5;color:var(--wine);font-weight:600;font-size:14px;padding:5px 12px;border-radius:999px}
+h1{font-size:54px;line-height:1.12;margin:16px 0 14px;font-weight:700;color:var(--wine2)}
+h1 em{font-family:Fraunces,serif;font-style:italic;font-weight:500;color:var(--green)}
+.sub{font-size:19px;color:var(--mut);margin:0 0 24px;max-width:520px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.b1{background:var(--wine);color:#fff;padding:14px 26px;border-radius:12px;font-weight:700;font-size:17px}
+.b2{background:#fff;border:1.5px solid var(--wine);color:var(--wine);padding:13px 22px;border-radius:12px;font-weight:600;font-size:17px}
+.deliv{margin-top:26px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:10px;align-items:end;max-width:600px}
+.deliv label{font-size:12px;color:var(--mut);display:block;margin-bottom:4px}
+.deliv div.f{border:1px solid var(--line);border-radius:10px;padding:10px;font-size:15px;background:#fffdfb}
+.deliv .go{background:var(--green);color:#fff;border-radius:10px;padding:11px 16px;font-weight:600;white-space:nowrap}
+.hpic{position:relative;height:600px}
+.hpic .main{border-radius:200px 200px 24px 24px;overflow:hidden;height:100%;box-shadow:0 24px 50px -20px rgba(110,20,33,.45)}
+.badge{position:absolute;left:-26px;bottom:40px;background:#fff;border-radius:16px;padding:14px 18px;box-shadow:0 12px 30px -10px rgba(0,0,0,.25);font-size:14px}
+.badge b{display:block;font-size:22px;color:var(--wine)}
+.trust{max-width:1200px;margin:40px auto 0;padding:0 20px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.trust div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;font-size:15px}
+.trust b{display:block;color:var(--green);font-size:16px;margin-bottom:2px}
+section{max-width:1200px;margin:56px auto 0;padding:0 20px}
+.sh{display:flex;justify-content:space-between;align-items:end;margin-bottom:18px}
+h2{font-size:34px;margin:0;color:var(--wine2)}h2 small{display:block;font-size:16px;color:var(--mut);font-weight:400}
+.occ{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.occ span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:15px}
+.occ span.on{background:var(--wine);color:#fff;border-color:var(--wine)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:#fff;border-radius:18px;overflow:hidden;border:1px solid var(--line)}
+.card .p{aspect-ratio:4/5}
+.card .t{padding:12px 14px 14px}
+.card h3{margin:0 0 4px;font-size:17px}
+.card .pr{display:flex;justify-content:space-between;align-items:center}
+.card .pr b{color:var(--wine);font-size:18px}
+.card .add{background:var(--green);color:#fff;border-radius:9px;padding:6px 12px;font-size:14px;font-weight:600}
+.tag{position:absolute;margin:10px;background:#fff;color:var(--wine);font-size:12px;font-weight:700;padding:3px 9px;border-radius:999px}
+.wed{display:grid;grid-template-columns:1fr 1fr 1.1fr;gap:18px;align-items:stretch}
+.wed .p{border-radius:18px;overflow:hidden;height:440px}
+.wed .txt{background:var(--green);color:#eef5f0;border-radius:18px;padding:30px}
+.wed .txt h2{color:#fff}.wed .txt h2 small{color:#cfe2d6}
+.wed ul{padding-left:18px;line-height:1.9;font-size:16px}
+.wed .b1{display:inline-block;background:#fff;color:var(--green);margin-top:8px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.steps div{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px}
+.steps i{font-style:normal;display:inline-grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#f3e3e5;color:var(--wine);font-weight:700;margin-bottom:8px}
+.steps b{display:block;font-size:18px;margin-bottom:4px}
+footer{margin-top:60px;background:var(--wine2);color:#f3dfe2}
+.ft{max-width:1200px;margin:auto;padding:34px 20px;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:24px;font-size:15px;line-height:1.8}
+.ft .logo{color:#fff}.ft .logo b{color:#ffb3bd}
+.fab{position:fixed;right:22px;bottom:22px;background:#1fa855;color:#fff;border-radius:999px;padding:13px 18px;font-weight:700;box-shadow:0 10px 24px -6px rgba(0,0,0,.35)}
+@media(max-width:700px){
+ nav,.cart{display:none}.top{padding:12px 16px;gap:10px;justify-content:space-between}.logo{font-size:25px}
+ .hero{grid-template-columns:1fr;margin-top:18px;padding:0 16px;gap:22px}
+ h1{font-size:36px}.sub{font-size:16px}.hpic{height:430px;order:-1}.badge{left:12px;bottom:14px}
+ .deliv{grid-template-columns:1fr 1fr}.deliv .go{grid-column:span 2;text-align:center}
+ .trust{grid-template-columns:1fr 1fr;padding:0 16px}section{padding:0 16px;margin-top:40px}
+ h2{font-size:26px}.grid{grid-template-columns:1fr 1fr;gap:12px}.card h3{font-size:15px}.card .add{padding:5px 9px;font-size:13px}
+ .wed{grid-template-columns:1fr 1fr}.wed .txt{grid-column:span 2;order:-1}.wed .p{height:260px}
+ .steps{grid-template-columns:1fr}.ft{grid-template-columns:1fr}
+}
+</style></head><body>
+<div class="demo">ডেমো ডিজাইন — Zepora X-এর জন্য বানানো। ছবি আপনাদের পেজ থেকে; দাম ও লেখা নমুনা, পরিবর্তনযোগ্য।</div>
+<header><div class="top">
+ <div class="logo">Zepora<b>X</b></div>
+ <nav><span>বুকে</span><span>ফুলের বক্স</span><span>বিয়ের মালা</span><span>উপলক্ষ</span><span>আমাদের সম্পর্কে</span></nav>
+ <div class="ic"><a class="wa" href="https://wa.me/8801922855299">WhatsApp অর্ডার</a><span class="cart">কার্ট (০)</span></div>
+</div></header>
+
+<div class="hero">
+ <div>
+  <span class="kick">ঢাকায় সেইম-ডে ফ্রেশ ফ্লাওয়ার ডেলিভারি</span>
+  <h1>মনের কথা বলুন <em>ফুলে</em>,<br>বাকিটা আমরা সাজাই</h1>
+  <p class="sub">জন্মদিন, অ্যানিভার্সারি বা বিয়ে, যেকোনো উপলক্ষে হাতে বানানো বুকে, ফুলের বক্স আর মালা। পছন্দ করুন, তারিখ দিন, আমরা পৌঁছে দেব।</p>
+  <div class="btns"><span class="b1">এখনই অর্ডার করুন</span><span class="b2">সব কালেকশন দেখুন</span></div>
+  <div class="deliv">
+   <div><label>ডেলিভারি এলাকা</label><div class="f">বনানী ▾</div></div>
+   <div><label>তারিখ</label><div class="f">আজ, ১৭ অক্টো ▾</div></div>
+   <div><label>সময়</label><div class="f">বিকাল ৪–৮টা ▾</div></div>
+   <span class="go">ফুল খুঁজুন</span>
+  </div>
+ </div>
+ <div class="hpic"><div class="main"><img src="blue-white.jpg"></div>
+  <div class="badge"><b>১০ হাজার+</b>ফেসবুকে ফলোয়ার</div></div>
+</div>
+
+<div class="trust">
+ <div><b>ফ্রেশ ও প্রিমিয়াম ফুল</b>প্রতিদিন সকালে আনা</div>
+ <div><b>ক্রিয়েটিভ ডিজাইন</b>প্রতিটা অর্ডার হাতে সাজানো</div>
+ <div><b>দ্রুত ডেলিভারি</b>ঢাকার ভেতরে একই দিনে</div>
+ <div><b>bKash / ক্যাশ অন ডেলিভারি</b>যেভাবে সুবিধা</div>
+</div>
+
+<section>
+ <div class="sh"><h2>জনপ্রিয় কালেকশন<small>সবচেয়ে বেশি অর্ডার হওয়া ডিজাইন</small></h2></div>
+ <div class="occ"><span class="on">সব</span><span>জন্মদিন</span><span>অ্যানিভার্সারি</span><span>ভালোবাসা</span><span>সরি / ধন্যবাদ</span><span>বিয়ে</span></div>
+ <div class="grid">
+  <div class="card"><div class="p"><span class="tag">বেস্টসেলার</span><img src="red-3.jpg"></div><div class="t"><h3>৩ লাল গোলাপ বুকে</h3><div class="pr"><b>৳ ৯৫০</b><span class="add">কার্টে যোগ</span></div></div></div>
+  <div class="card"><div class="p"><img src="yellow.jpg"></div><div class="t"><h3>সানশাইন হলুদ গোলাপ</h3><div class="pr"><b>৳ ২,২০০</b><span class="add">কার্টে যোগ</span></div></div></div>
+  <div class="card"><div class="p"><span class="tag">নতুন</span><img src="rose-box.jpg"></div><div class="t"><h3>"Just For You" রোজ বক্স</h3><div class="pr"><b>৳ ৩,৫০০</b><span class="add">কার্টে যোগ</span></div></div></div>
+  <div class="card"><div class="p"><img src="white-bridal.jpg"></div><div class="t"><h3>সাদা গোলাপ ব্রাইডাল বুকে</h3><div class="pr"><b>৳ ৩,২০০</b><span class="add">কার্টে যোগ</span></div></div></div>
+ </div>
+</section>
+
+<section>
+ <div class="wed">
+  <div class="txt"><h2>বিয়ে ও হলুদের ফুল<small>মালা, ব্রাইডাল বুকে আর স্টেজের ফুল</small></h2>
+   <ul><li>বর-কনের মালা, পছন্দের রঙে</li><li>ব্রাইডাল বুকে ও হাতের ফুল</li><li>অনুষ্ঠানের তারিখ দিয়ে আগে থেকে বুকিং</li></ul>
+   <span class="b1">কাস্টম অর্ডারের জন্য মেসেজ দিন</span></div>
+  <div class="p"><img src="garland-pink.jpg"></div>
+  <div class="p"><img src="red-combo.jpg"></div>
+ </div>
+</section>
+
+<section>
+ <div class="sh"><h2>কীভাবে অর্ডার করবেন</h2></div>
+ <div class="steps">
+  <div><i>১</i><b>ফুল বেছে নিন</b>উপলক্ষ বা দাম অনুযায়ী খুঁজুন, কার্টে যোগ করুন।</div>
+  <div><i>২</i><b>তারিখ, সময় আর কার্ডের মেসেজ</b>কবে, কখন পৌঁছাবে আর কার্ডে কী লেখা থাকবে তা দিন।</div>
+  <div><i>৩</i><b>পেমেন্ট করুন</b>bKash বা ক্যাশ অন ডেলিভারি। অর্ডার কনফার্ম SMS/WhatsApp-এ।</div>
+ </div>
+</section>
+
+<footer><div class="ft">
+ <div><div class="logo">Zepora<b>X</b></div>Shop smarter, shine brighter — only at Zepora X<br>ফ্রেশ ফ্লাওয়ার · বুকে · গিফট</div>
+ <div><b>যোগাযোগ</b><br>WhatsApp: 01922-855299<br>রোড ১২, বনানী, ঢাকা<br>facebook.com/zeporax</div>
+ <div><b>তথ্য</b><br>ডেলিভারি এলাকা<br>রিফান্ড পলিসি<br>অর্ডার ট্র্যাক করুন</div>
+</div></footer>
+<a class="fab" href="https://wa.me/8801922855299">WhatsApp-এ অর্ডার</a>
+</body></html>
