@@ -1,0 +1,65 @@
+<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Koncept Furniture — Sample Homepage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--pri:#d4202a;--dark:#1c1715;--acc:#b8865a;--bg:#faf7f4;--soft:#f6e9e4;--ink:#231a1c;--mut:#776a6c;--line:#e8ddd5}
+*{box-sizing:border-box}a{text-decoration:none;color:inherit}body{margin:0;font-family:'Hind Siliguri',system-ui,sans-serif;background:var(--bg);color:var(--ink)}
+img{display:block;width:100%;height:100%;object-fit:cover}
+.demo{background:var(--acc);color:#fff;text-align:center;font-size:13px;padding:7px 12px}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.top{max-width:1200px;margin:auto;display:flex;align-items:center;gap:28px;padding:14px 20px}
+.logo{font-family:Fraunces,serif;font-size:28px;font-weight:700;letter-spacing:-.5px;color:var(--dark);white-space:nowrap}.logo b{color:var(--pri)}
+nav{display:flex;gap:22px;font-size:15px;color:#4b3a3d;flex:1}.ic{display:flex;gap:10px;align-items:center}
+.wa{background:#1fa855;color:#fff;border-radius:999px;padding:9px 16px;font-weight:600;font-size:14px;white-space:nowrap}
+.cart{border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;white-space:nowrap}
+.hero{max-width:1200px;margin:28px auto 0;padding:0 20px;display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}
+.kick{display:inline-block;background:var(--soft);color:var(--pri);font-weight:600;font-size:14px;padding:5px 12px;border-radius:999px}
+h1{font-size:52px;line-height:1.12;margin:16px 0 14px;font-weight:700;color:var(--dark)}h1 em{font-family:Fraunces,serif;font-style:italic;font-weight:500;color:var(--pri)}
+.sub{font-size:19px;color:var(--mut);margin:0 0 24px;max-width:520px}.btns{display:flex;gap:12px;flex-wrap:wrap}
+.b1{background:var(--pri);color:#fff;padding:14px 26px;border-radius:12px;font-weight:700;font-size:17px}
+.b2{background:#fff;border:1.5px solid var(--pri);color:var(--pri);padding:13px 22px;border-radius:12px;font-weight:600;font-size:17px}
+.box{margin-top:26px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;display:grid;grid-template-columns:repeat(3,1fr) auto;gap:10px;align-items:end;max-width:600px}
+.box label{font-size:12px;color:var(--mut);display:block;margin-bottom:4px}.box div.f{border:1px solid var(--line);border-radius:10px;padding:10px;font-size:15px;background:#fffdfb}
+.box .go{background:var(--dark);color:#fff;border-radius:10px;padding:11px 16px;font-weight:600;white-space:nowrap}
+.hpic{position:relative;height:580px}.hpic .main{border-radius:200px 200px 24px 24px;overflow:hidden;height:100%;box-shadow:0 24px 50px -20px rgba(0,0,0,.35)}
+.badge{position:absolute;left:-26px;bottom:40px;background:#fff;border-radius:16px;padding:14px 18px;box-shadow:0 12px 30px -10px rgba(0,0,0,.25);font-size:14px}.badge b{display:block;font-size:22px;color:var(--pri)}
+.trust{max-width:1200px;margin:40px auto 0;padding:0 20px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.trust div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;font-size:15px}.trust b{display:block;color:var(--dark);font-size:16px;margin-bottom:2px}
+section{max-width:1200px;margin:56px auto 0;padding:0 20px}.sh{margin-bottom:18px}
+h2{font-size:34px;margin:0;color:var(--dark)}h2 small{display:block;font-size:16px;color:var(--mut);font-weight:400}
+.occ{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}.occ span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:15px}
+.occ span.on{background:var(--pri);color:#fff;border-color:var(--pri)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#fff;border-radius:18px;overflow:hidden;border:1px solid var(--line)}
+.card .p{aspect-ratio:4/5;position:relative}.card .t{padding:12px 14px 14px}.card h3{margin:0 0 4px;font-size:17px}
+.card .pr{display:flex;justify-content:space-between;align-items:center}.card .pr b{color:var(--pri);font-size:18px}
+.card .add{background:var(--dark);color:#fff;border-radius:9px;padding:6px 12px;font-size:14px;font-weight:600}
+.tag{position:absolute;margin:10px;background:#fff;color:var(--pri);font-size:12px;font-weight:700;padding:3px 9px;border-radius:999px;z-index:1}
+.s2{display:grid;grid-template-columns:1.1fr repeat(3,1fr);gap:18px}.s2 .p{border-radius:18px;overflow:hidden;height:420px}
+.s2 .txt{background:var(--dark);color:#f3ecec;border-radius:18px;padding:30px}.s2 .txt h2{color:#fff}.s2 .txt h2 small{color:rgba(255,255,255,.75)}
+.s2 ul{padding-left:18px;line-height:1.9;font-size:16px}.s2 .b1{display:inline-block;background:#fff;color:var(--dark);margin-top:8px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.steps div{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px}
+.steps i{font-style:normal;display:inline-grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--soft);color:var(--pri);font-weight:700;margin-bottom:8px}.steps b{display:block;font-size:18px;margin-bottom:4px}
+footer{margin-top:60px;background:var(--dark);color:rgba(255,255,255,.85)}.ft{max-width:1200px;margin:auto;padding:34px 20px;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:24px;font-size:15px;line-height:1.8}
+.ft .logo{color:#fff}.ft .logo b{color:var(--soft)}
+.fab{position:fixed;right:22px;bottom:22px;background:#1fa855;color:#fff;border-radius:999px;padding:13px 18px;font-weight:700;box-shadow:0 10px 24px -6px rgba(0,0,0,.35)}
+@media(max-width:700px){nav,.cart{display:none}.top{padding:12px 16px;gap:10px;justify-content:space-between}.logo{font-size:23px}
+.hero{grid-template-columns:1fr;margin-top:18px;padding:0 16px;gap:22px}h1{font-size:34px}.sub{font-size:16px}.hpic{height:420px;order:-1}.badge{left:12px;bottom:14px}
+.box{grid-template-columns:1fr 1fr}.box .go{grid-column:span 2;text-align:center}.trust{grid-template-columns:1fr 1fr;padding:0 16px}section{padding:0 16px;margin-top:40px}
+h2{font-size:26px}.grid{grid-template-columns:1fr 1fr;gap:12px}.card h3{font-size:15px}.card .add{padding:5px 9px;font-size:13px}
+.s2{grid-template-columns:1fr 1fr}.s2 .txt{grid-column:span 2}.s2 .p{height:260px}.steps{grid-template-columns:1fr}.ft{grid-template-columns:1fr}}
+</style></head><body>
+<div class="demo">ডেমো ডিজাইন — Koncept Furniture-এর জন্য বানানো। ছবি আপনাদের পেজ থেকে; দাম ও লেখা নমুনা, পরিবর্তনযোগ্য।</div>
+<header><div class="top"><div class="logo">KONCEPT <b>Furniture</b></div><nav><span>সোফা ও সেকশনাল</span><span>রিক্লাইনার</span><span>বেডরুম</span><span>ডাইনিং</span><span>শোরুম</span></nav>
+<div class="ic"><a class="wa" href="https://wa.me/8801610444999">WhatsApp অর্ডার</a><span class="cart">কার্ট (০)</span></div></div></header>
+<div class="hero"><div><span class="kick">Live Your Signature — গুলশান ২, ঢাকা</span><h1>আপনার ঘরের জন্য<br><em>সিগনেচার</em> ফার্নিচার</h1><p class="sub">সোফা, সেকশনাল, রিক্লাইনার, বেড আর ডাইনিং — প্রতিটা পিসের ছবি, মাপ আর কাপড়/রঙের অপশন এক জায়গায়। পছন্দ হলে অনলাইনে অর্ডার বা শোরুম ভিজিট বুক করুন।</p>
+<div class="btns"><span class="b1">কালেকশন দেখুন</span><span class="b2">শোরুম ভিজিট বুক করুন</span></div>
+<div class="box"><div><label>রুম</label><div class="f">লিভিং রুম ▾</div></div><div><label>ধরন</label><div class="f">সেকশনাল সোফা ▾</div></div><div><label>রঙ</label><div class="f">বেইজ / গ্রে ▾</div></div><span class="go">খুঁজুন</span></div></div>
+<div class="hpic"><div class="main"><img src="orange-sectional.jpg" alt=""></div><div class="badge"><b>গুলশান ২</b>শোরুম, ঢাকা</div></div></div>
+<div class="trust"><div><b>প্রতিটা পিসের মাপ</b>ঘরে মানাবে কিনা আগেই দেখুন</div><div><b>রঙ ও কাপড়ের অপশন</b>অনলাইনেই বেছে নিন</div><div><b>শোরুম ভিজিট বুকিং</b>এক ক্লিকে সময় ঠিক করুন</div><div><b>কল / WhatsApp</b>সরাসরি কথা বলুন</div></div>
+<section><div class="sh"><h2>সোফা ও সেকশনাল<small>লিভিং রুম, লবি আর রুফটপের জন্য</small></h2></div><div class="occ"><span class="on">সব</span><span class="">সোফা</span><span class="">সেকশনাল</span><span class="">রিক্লাইনার</span><span class="">বেড</span><span class="">ডাইনিং</span></div><div class="grid"><div class="card"><div class="p"><span class="tag">নতুন</span><img src="white-sectional.jpg" alt=""></div><div class="t"><h3>কর্নার সেকশনাল — আইভরি</h3><div class="pr"><b>দাম জানুন →</b><span class="add">কার্টে যোগ</span></div></div></div><div class="card"><div class="p"><img src="dark-sofa.jpg" alt=""></div><div class="t"><h3>৩-সিটার সোফা — চারকোল</h3><div class="pr"><b>দাম জানুন →</b><span class="add">কার্টে যোগ</span></div></div></div><div class="card"><div class="p"><img src="lobby-sofa.jpg" alt=""></div><div class="t"><h3>কার্ভড সোফা — বেইজ</h3><div class="pr"><b>দাম জানুন →</b><span class="add">কার্টে যোগ</span></div></div></div><div class="card"><div class="p"><span class="tag">হট</span><img src="recliner.jpg" alt=""></div><div class="t"><h3>পাওয়ার রিক্লাইনার — ট্যান লেদার</h3><div class="pr"><b>দাম জানুন →</b><span class="add">কার্টে যোগ</span></div></div></div></div></section>
+<section><div class="s2"><div class="txt"><h2>বেডরুম আর ডাইনিং<small>পুরো বাসা এক ব্র্যান্ডে সাজান</small></h2><ul><li>প্রতিটা পণ্যের মাপ আর ম্যাটেরিয়াল লেখা</li><li>একই ডিজাইনের সেট একসাথে দেখুন</li><li>নতুন কালেকশন এলে WhatsApp-এ জানুন</li></ul><span class="b1">সব কালেকশন দেখুন</span></div><div class="p"><img src="bed.jpg" alt=""></div><div class="p"><img src="dining.jpg" alt=""></div><div class="p"><img src="grey-sofa.jpg" alt=""></div></div></section>
+<section><div class="sh"><h2>কীভাবে অর্ডার করবেন</h2></div><div class="steps"><div><i>১</i><b>পিস বাছুন</b>রুম, ধরন বা রঙ দিয়ে ফিল্টার করুন।</div><div><i>২</i><b>মাপ ও অপশন</b>সাইজ, কাপড় আর রঙ মিলিয়ে কোট নিন।</div><div><i>৩</i><b>অর্ডার বা ভিজিট</b>অনলাইনে অর্ডার দিন বা শোরুমে এসে দেখুন।</div></div></section>
+<footer><div class="ft"><div><div class="logo">KONCEPT <b>Furniture</b></div>Live Your Signature</div>
+<div><b>যোগাযোগ</b><br>কল/WhatsApp: 01610-444999, 01614-444333<br>হাউস ১১/এ, বকশ টাওয়ার, রোড ৪৮, গুলশান ২, ঢাকা<br>facebook.com/konceptbd</div><div><b>তথ্য</b><br>ডেলিভারি এলাকা<br>রিটার্ন পলিসি<br>অর্ডার ট্র্যাক করুন</div></div></footer>
+<a class="fab" href="https://wa.me/8801610444999">WhatsApp-এ অর্ডার</a></body></html>
